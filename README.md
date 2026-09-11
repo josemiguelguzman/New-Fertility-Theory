@@ -1,2 +1,7 @@
 # New-Fertility-Theory
-DataBase of Documents-books-others
+
+Repository of documents (books, papers, and related references) that can be accessed by Claude Code.
+
+## Repository structure
+
+- `documents/`: source documents and reference material.
