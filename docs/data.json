@@ -1,7 +1,7 @@
 {
   "name": "Fertility Transition Index",
   "updated": "2026-09-11",
-  "count": 38,
+  "count": 85,
   "entries": [
     {
       "authors": [
@@ -56,6 +56,32 @@
       "volume": "29",
       "year": 1937,
       "id": "davis-1937"
+    },
+    {
+      "authors": [
+        "Frank W. Notestein"
+      ],
+      "camps": [
+        "Classical transition theory"
+      ],
+      "citationNote": "Not in your corpus. Added from the published literature; page range should be confirmed against the volume.",
+      "citationVerified": false,
+      "citeKey": "notestein-1945",
+      "keyArgument": "The canonical statement of demographic transition theory, and the text against which Davis 1945 is usually read. Notestein sets out the three-stage scheme of high growth potential, transitional growth and incipient decline, and projects it forward onto the world's regions.\n\nHis causal account locates the fertility decline in urban industrial society's dissolution of the family as a productive unit, alongside rising individualism and the growing cost of children. Everything later theorists argue about, including wealth flows, institutions and ideation, is a response to the mechanism proposed here.",
+      "kind": "chapter",
+      "language": "en",
+      "pages": "36–57",
+      "periodFrom": 1750,
+      "periodTo": 1945,
+      "publisher": "University of Chicago Press",
+      "regions": [
+        "Global"
+      ],
+      "sourceFile": "",
+      "title": "Population: The Long View",
+      "venue": "Food for the World (ed. Theodore W. Schultz)",
+      "year": 1945,
+      "id": "notestein-1945"
     },
     {
       "authors": [
@@ -170,6 +196,34 @@
     },
     {
       "authors": [
+        "Ansley J. Coale"
+      ],
+      "camps": [
+        "Classical transition theory",
+        "Ideational & diffusion"
+      ],
+      "citationNote": "Not in your corpus. Added from the published literature; volume and pages should be confirmed against the conference proceedings.",
+      "citationVerified": false,
+      "citeKey": "coale-1973",
+      "keyArgument": "Written out of the European Fertility Project, which had found that fertility fell across provinces with very different levels of income, urbanisation and mortality, and that it clustered instead by language and culture.\n\nCoale's response is the three preconditions: fertility falls when deliberate control is within the calculus of conscious choice, when reduced fertility is perceived as advantageous, and when effective means are available. The first condition is the one that shifted the field, since it makes the transition partly a question of what is thinkable, which is the door Cleland and Wilson later walk through.",
+      "kind": "chapter",
+      "language": "en",
+      "pages": "53–72",
+      "periodFrom": 1740,
+      "periodTo": 1970,
+      "publisher": "IUSSP",
+      "regions": [
+        "Western Europe",
+        "Global"
+      ],
+      "sourceFile": "",
+      "title": "The Demographic Transition Reconsidered",
+      "venue": "Proceedings of the International Population Conference, Liège 1973, vol. 1",
+      "year": 1973,
+      "id": "coale-1973"
+    },
+    {
+      "authors": [
         "Kingsley Davis"
       ],
       "camps": [
@@ -195,6 +249,34 @@
       "volume": "102",
       "year": 1973,
       "id": "davis-1973"
+    },
+    {
+      "authors": [
+        "John Bongaarts"
+      ],
+      "camps": [
+        "Proximate determinants"
+      ],
+      "citationNote": "Not in your corpus. Added from the published literature; volume and pages should be confirmed.",
+      "citationVerified": false,
+      "citeKey": "bongaarts-1978",
+      "issue": "1",
+      "keyArgument": "Bongaarts turns the Davis and Blake intermediate variables into a working accounting framework, reducing them to four indices that between them explain most of the variation in fertility across populations: marriage, contraception, induced abortion and postpartum infecundability.\n\nIts importance is methodological rather than theoretical. Any social or economic determinant must act through these channels, so the framework is the standard bridge between a behavioural explanation and an observed fertility level, and it is what lets a claim about ideas or institutions be checked arithmetically.",
+      "kind": "article",
+      "language": "en",
+      "pages": "105–132",
+      "periodFrom": 1950,
+      "periodTo": 1978,
+      "regions": [
+        "Global",
+        "Developing countries"
+      ],
+      "sourceFile": "",
+      "title": "A Framework for Analyzing the Proximate Determinants of Fertility",
+      "venue": "Population and Development Review",
+      "volume": "4",
+      "year": 1978,
+      "id": "bongaarts-1978"
     },
     {
       "authors": [
@@ -313,6 +395,34 @@
     },
     {
       "authors": [
+        "Dirk J. van de Kaa"
+      ],
+      "camps": [
+        "Second Demographic Transition",
+        "Ideational & diffusion"
+      ],
+      "citationNote": "Not in your corpus. Added from the published literature; issue details should be confirmed.",
+      "citationVerified": false,
+      "citeKey": "vandekaa-1987",
+      "issue": "1",
+      "keyArgument": "The statement that named the second demographic transition and carried it to an international audience. Van de Kaa argues that the changes in European family life after the mid-1960s are not a disturbance in the first transition but a distinct regime: sustained below-replacement fertility, postponed and fewer marriages, cohabitation, childbearing outside marriage, divorce, and effective contraception used for self-realisation rather than family limitation.\n\nThe underlying shift he proposes is from an era of concern for the child to one of concern for the self-fulfilment of the adult couple. Burke 2026 and the current low-fertility literature are still arguing with this thesis.",
+      "kind": "report",
+      "language": "en",
+      "periodFrom": 1960,
+      "periodTo": 1987,
+      "publisher": "Population Reference Bureau, Washington DC",
+      "regions": [
+        "Western Europe"
+      ],
+      "sourceFile": "",
+      "title": "Europe's Second Demographic Transition",
+      "venue": "Population Bulletin",
+      "volume": "42",
+      "year": 1987,
+      "id": "vandekaa-1987"
+    },
+    {
+      "authors": [
         "Judith Blake"
       ],
       "camps": [
@@ -336,6 +446,35 @@
       "volume": "245",
       "year": 1989,
       "id": "blake-1989"
+    },
+    {
+      "authors": [
+        "Susan Greenhalgh"
+      ],
+      "camps": [
+        "Political economy",
+        "Institutional sociology"
+      ],
+      "citationNote": "Not in your corpus. Added from the published literature; volume and pages should be confirmed.",
+      "citationVerified": false,
+      "citeKey": "greenhalgh-1990",
+      "issue": "1",
+      "keyArgument": "Greenhalgh argues that fertility decisions are made inside structures of power, and that a demography which treats the household as an undifferentiated decision unit misses the politics inside it as well as the political economy around it.\n\nHer programme is to situate reproductive behaviour in institutional, political and historical context, attending to inequality between generations and between women and men, and to the state's reach into the family. It is the anthropological counterpart to McNicoll's institutional argument, and it supplies the language in which later work on gender and reproduction is written.",
+      "kind": "article",
+      "language": "en",
+      "pages": "85–106",
+      "periodFrom": 1960,
+      "periodTo": 1990,
+      "regions": [
+        "Developing countries",
+        "Global"
+      ],
+      "sourceFile": "",
+      "title": "Toward a Political Economy of Fertility: Anthropological Contributions",
+      "venue": "Population and Development Review",
+      "volume": "16",
+      "year": 1990,
+      "id": "greenhalgh-1990"
     },
     {
       "authors": [
@@ -417,6 +556,36 @@
       "volume": "66",
       "year": 1997,
       "id": "vandekaa-1997"
+    },
+    {
+      "authors": [
+        "Peter McDonald"
+      ],
+      "camps": [
+        "Gender revolution",
+        "Family institutions"
+      ],
+      "citationNote": "Not in your corpus. Added from the published literature; volume and pages should be confirmed.",
+      "citationVerified": false,
+      "citeKey": "mcdonald-2000",
+      "issue": "3",
+      "keyArgument": "McDonald's gender-equity thesis, and the most portable explanation of why very low fertility appears where it does. His claim is that fertility falls to very low levels when gender equity in individual-oriented institutions, above all education and the labour market, runs far ahead of gender equity within the family and family-oriented institutions.\n\nWomen who are treated as individuals at school and at work and as traditional wives at home respond by having fewer children. The prediction is comparative: southern Europe and East Asia should sit lowest, the Nordic countries higher, which is broadly what the record showed. Andersson's Swedish decline is the case that now strains it.",
+      "kind": "article",
+      "language": "en",
+      "pages": "427–439",
+      "periodFrom": 1970,
+      "periodTo": 2000,
+      "regions": [
+        "High-income countries",
+        "Western Europe",
+        "East Asia"
+      ],
+      "sourceFile": "",
+      "title": "Gender Equity in Theories of Fertility Transition",
+      "venue": "Population and Development Review",
+      "volume": "26",
+      "year": 2000,
+      "id": "mcdonald-2000"
     },
     {
       "authors": [
@@ -510,6 +679,36 @@
     },
     {
       "authors": [
+        "Wolfgang Lutz",
+        "Vegard Skirbekk",
+        "Maria Rita Testa"
+      ],
+      "camps": [
+        "Low-fertility trap",
+        "Subjective turn"
+      ],
+      "citationVerified": true,
+      "citeKey": "lutz-2006",
+      "issue": "1",
+      "keyArgument": "The hypothesis that below a certain level low fertility becomes self-reinforcing through three mechanisms that feed one another.\n\nDemographically, fewer women of reproductive age produce fewer births, which shrinks the next cohort again. Sociologically, young people who grow up among small families form lower ideal family sizes, since the ideal is calibrated on what they see. Economically, declining expectations of future income and rising aspirations widen the gap between what young adults want and what they think they can afford.\n\nThe second mechanism is the one that matters most for theory, because it makes preferences endogenous to the fertility level itself. Golovina's Finnish cohort findings are close to a direct test.\n\nNot in your corpus; added from the published literature.",
+      "kind": "article",
+      "language": "en",
+      "pages": "167–192",
+      "periodFrom": 1980,
+      "periodTo": 2006,
+      "regions": [
+        "Western Europe",
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "The Low Fertility Trap Hypothesis: Forces that May Lead to Further Postponement and Fewer Births in Europe",
+      "venue": "Vienna Yearbook of Population Research",
+      "volume": "4",
+      "year": 2006,
+      "id": "lutz-skirbekk-testa-2006"
+    },
+    {
+      "authors": [
         "Geoffrey McNicoll"
       ],
       "camps": [
@@ -539,6 +738,100 @@
     },
     {
       "authors": [
+        "Ron Lesthaeghe"
+      ],
+      "camps": [
+        "Second Demographic Transition",
+        "Ideational & diffusion"
+      ],
+      "citationNote": "Not in your corpus. Added from the published literature; volume and pages should be confirmed.",
+      "citationVerified": false,
+      "citeKey": "lesthaeghe-2010",
+      "issue": "2",
+      "keyArgument": "Lesthaeghe's own account of where the second demographic transition stood forty years in, and his answer to the charge that it was a description of north-west Europe dressed up as a theory.\n\nHe traces the spread of the pattern beyond its origin, including to the United States, central and eastern Europe and East Asia, and defends the ideational core: the rise of higher-order needs, self-realisation and expressive values, anchored in the shift Maslow and Inglehart describe, as the driver behind postponement, cohabitation, non-marital childbearing and sustained low fertility.\n\nThe companion piece to Van de Kaa in this index, and the standing statement of the position that Burke 2026 tests against the American plateau.",
+      "kind": "article",
+      "language": "en",
+      "pages": "211–251",
+      "periodFrom": 1960,
+      "periodTo": 2010,
+      "regions": [
+        "Western Europe",
+        "United States",
+        "East Asia",
+        "Global"
+      ],
+      "sourceFile": "",
+      "title": "The Unfolding Story of the Second Demographic Transition",
+      "venue": "Population and Development Review",
+      "volume": "36",
+      "year": 2010,
+      "id": "lesthaeghe-2010"
+    },
+    {
+      "authors": [
+        "Tomáš Sobotka",
+        "Vegard Skirbekk",
+        "Dimiter Philipov"
+      ],
+      "camps": [
+        "Economic demand theory",
+        "Narratives of the future"
+      ],
+      "citationNote": "Not in your corpus. Added from the published literature; volume and pages should be confirmed.",
+      "citationVerified": false,
+      "citeKey": "sobotka-2011",
+      "issue": "2",
+      "keyArgument": "The standard review of how economic downturns move fertility, assembled from the Great Depression through the recessions of the late twentieth century to the Great Recession.\n\nThe regularities they establish are that recessions depress fertility modestly and with a lag, that the effect is concentrated in first births and among the young, that it operates through unemployment and economic uncertainty rather than income alone, and that much of the loss is postponement rather than forgone childbearing.\n\nIt is the baseline against which the post-2010 decline looks anomalous, since recovery did not bring the rebound this literature would predict. Vignoli and Andersson both take up the problem it leaves.",
+      "kind": "article",
+      "language": "en",
+      "pages": "267–306",
+      "periodFrom": 1920,
+      "periodTo": 2011,
+      "regions": [
+        "High-income countries",
+        "Western Europe",
+        "United States"
+      ],
+      "sourceFile": "",
+      "title": "Economic Recession and Fertility in the Developed World",
+      "venue": "Population and Development Review",
+      "volume": "37",
+      "year": 2011,
+      "id": "sobotka-skirbekk-philipov-2011"
+    },
+    {
+      "authors": [
+        "Frances Goldscheider",
+        "Eva Bernhardt",
+        "Trude Lappegård"
+      ],
+      "camps": [
+        "Gender revolution",
+        "Family institutions"
+      ],
+      "citationVerified": true,
+      "citeKey": "goldscheider-2015",
+      "issue": "2",
+      "keyArgument": "The two-halves account of the gender revolution, and the most optimistic of the low-fertility frameworks. The first half moved women into public life, into education and paid work, and it destabilised the family and depressed fertility because nothing compensated at home.\n\nThe second half moves men into the private sphere, into housework and care, and the authors argue it should restabilise family life and raise fertility rather than lower it further. Low fertility on this reading is a feature of an incomplete revolution rather than its endpoint.\n\nIt is the direct counterweight to McDonald's gender-equity thesis, which stops where this one continues, and the Nordic decline since 2010 is the hardest case for it.\n\nNot in your corpus; added from the published literature.",
+      "kind": "article",
+      "language": "en",
+      "pages": "207–239",
+      "periodFrom": 1960,
+      "periodTo": 2015,
+      "regions": [
+        "High-income countries",
+        "Western Europe",
+        "United States"
+      ],
+      "sourceFile": "",
+      "title": "The Gender Revolution: A Framework for Understanding Changing Family and Demographic Behavior",
+      "venue": "Population and Development Review",
+      "volume": "41",
+      "year": 2015,
+      "id": "goldscheider-2015"
+    },
+    {
+      "authors": [
         "Anna Rotkirch"
       ],
       "camps": [
@@ -562,6 +855,37 @@
       "venue": "The Oxford Handbook of Evolution, Biology, and Society, chapter 21 (ed. Rosemary Hopcroft)",
       "year": 2016,
       "id": "rotkirch-2016"
+    },
+    {
+      "authors": [
+        "Éva Beaujouan",
+        "Caroline Berghammer"
+      ],
+      "camps": [
+        "Unrealized fertility",
+        "Subjective turn"
+      ],
+      "citationNote": "Not in your corpus. Added from the published literature; the DOI is confirmed, the page range should be checked.",
+      "citationVerified": false,
+      "citeKey": "beaujouan-2019",
+      "doi": "10.1007/s11113-019-09516-3",
+      "keyArgument": "Beaujouan and Berghammer compare the family size young people said they wanted with what their cohorts actually achieved, across European countries and the United States, cohort by cohort rather than at a single moment.\n\nThe gap between intended and completed fertility has widened over successive cohorts, and the widening comes mostly from the collapse of large families and the growth of childlessness rather than from a shift in what people say they want, which has stayed close to two.\n\nThis is the foundational cohort measurement of the aspiration gap, and the empirical companion to Yeatman and Smith-Greenaway's review in this index.",
+      "kind": "article",
+      "language": "en",
+      "pages": "507–535",
+      "periodFrom": 1930,
+      "periodTo": 2019,
+      "regions": [
+        "Western Europe",
+        "United States",
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "The Gap Between Lifetime Fertility Intentions and Completed Fertility in Europe and the United States: A Cohort Approach",
+      "venue": "Population Research and Policy Review",
+      "volume": "38",
+      "year": 2019,
+      "id": "beaujouan-berghammer-2019"
     },
     {
       "authors": [
@@ -622,6 +946,62 @@
       "venue": "Marriage & Family Review",
       "year": 2022,
       "id": "savelieva-2022"
+    },
+    {
+      "authors": [
+        "Melissa S. Kearney",
+        "Phillip B. Levine",
+        "Luke Pardue"
+      ],
+      "camps": [
+        "Economic demand theory",
+        "Subjective turn"
+      ],
+      "citationVerified": true,
+      "citeKey": "kearney-2022",
+      "doi": "10.1257/jep.36.1.151",
+      "issue": "1",
+      "keyArgument": "US birth rates fell sharply after 2007 and did not recover as the economy did. Kearney, Levine and Pardue test the obvious candidates against the data and rule them out one by one: the decline is not explained by the business cycle, by housing or student debt, by contraceptive access, by the cost of childcare, by Medicaid or by shifts in the composition of the population.\n\nThe decline is broad, appearing across almost every group, and concentrated in first births to young women. What is left, on their account, are shifting priorities across cohorts, which is an explanation by elimination rather than by evidence.\n\nThe American statement of the same puzzle Andersson poses for Sweden, and the reason the attitudinal literature grew after it.\n\nNot in your corpus; added from the published literature.",
+      "kind": "article",
+      "language": "en",
+      "pages": "151–176",
+      "periodFrom": 1980,
+      "periodTo": 2020,
+      "regions": [
+        "United States"
+      ],
+      "sourceFile": "",
+      "title": "The Puzzle of Falling US Birth Rates since the Great Recession",
+      "venue": "Journal of Economic Perspectives",
+      "volume": "36",
+      "year": 2022,
+      "id": "kearney-levine-pardue-2022"
+    },
+    {
+      "authors": [
+        "Claudia Goldin"
+      ],
+      "camps": [
+        "Economic demand theory",
+        "Classical transition theory"
+      ],
+      "citationVerified": true,
+      "keyArgument": "Fertility fell in every developed country, but not on the same schedule: some nations crossed into \"lowest-low\" fertility (below 1.3) by the 1990s while others with similar starting points in the 1980s did not. Goldin argues the decisive variable is the speed of postwar economic growth — countries that experienced rapid GNP-per-capita growth after a long period of stagnation saw material conditions change faster than beliefs, values and traditions could adjust.\n\nThat mismatch between fast-moving economics and slow-moving norms generates generational and gender conflict specifically in the rapid-growth cases, which is her explanation for why the crossover into lowest-low fertility clustered around the 1980s and 1990s for one group of countries and never happened for the other. A direct, dated answer to the puzzle of timing that most fertility-decline theories leave unaddressed.",
+      "kind": "working paper",
+      "language": "en",
+      "periodFrom": 1945,
+      "periodTo": 2025,
+      "publisher": "National Bureau of Economic Research",
+      "regions": [
+        "Global",
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "Babies and the Macroeconomy",
+      "url": "https://www.nber.org/papers/w33311",
+      "venue": "NBER Working Paper 33311 (rev. May 2025); forthcoming, Economica",
+      "year": 2024,
+      "id": "goldin-2024-macro"
     },
     {
       "authors": [
@@ -690,6 +1070,31 @@
     },
     {
       "authors": [
+        "Alex Weinreb"
+      ],
+      "camps": [
+        "Population policy",
+        "Institutional sociology"
+      ],
+      "citationVerified": true,
+      "keyArgument": "Israel is the OECD's fertility outlier — pronatalist norms hold across educational and religiosity lines, and fertility has risen alongside rising education and delayed childbearing, the reverse of the pattern seen almost everywhere else in the developed world. This annual overview tracks how the war years disrupted and then restored that pattern: Jewish fertility dipped at the war's outset before rebounding to roughly 3.10 children per woman, while immigration remained robust, with notable inflows from North America and Western Europe.\n\nThe report also complicates the exceptionalism story internally: peripheral and non-Haredi Jewish communities are growing more slowly than settlement areas in Judea and Samaria, and the northern regions show a pre-war stagnation the author flags as needing attention in postwar reconstruction. Read alongside the Confucian-paradox and family-institutions literature already in this corpus, Israel is the sharpest available test case for any theory claiming an ideational field must weaken as societies modernize.",
+      "kind": "report",
+      "language": "en",
+      "periodFrom": 1995,
+      "periodTo": 2024,
+      "publisher": "Taub Center for Social Policy Studies in Israel",
+      "regions": [
+        "Israel"
+      ],
+      "sourceFile": "",
+      "title": "Demography Overview, 2024: Diverging Fertility, Shifting Migration, and Shrinking Yishuvim",
+      "url": "https://www.taubcenter.org.il/en/research/demography-2024/",
+      "venue": "Taub Center Policy Paper 16.2024",
+      "year": 2024,
+      "id": "weinreb-2024"
+    },
+    {
+      "authors": [
         "Hannah Zagel",
         "Rene Almeling"
       ],
@@ -719,6 +1124,62 @@
     },
     {
       "authors": [
+        "Yue Teng",
+        "Rachel Margolis"
+      ],
+      "camps": [
+        "Economic demand theory",
+        "Quantity–quality"
+      ],
+      "citationVerified": true,
+      "issue": "7",
+      "keyArgument": "Canada's total fertility rate fell from 1.69 in 2008 to 1.33 by 2022, and Teng and Margolis decompose that fall into its quantum and tempo components. Sixty-one percent of the decline reflects falling quantum — women simply having fewer children over their lifetimes — while only 39 percent reflects tempo effects, the postponement of births to later ages.\n\nThe single largest contributor is the decline in first births among women aged 18 to 28, which concentrates the story on young women choosing not to start families at ages that were once the norm, rather than on higher-order births disappearing among women who already have one child. This gives Canada a similar quantum-dominant profile to Uruguay's big decline also in this corpus, distinct from countries where postponement alone can explain most of the fall.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2008,
+      "periodTo": 2022,
+      "regions": [
+        "Canada",
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "Fertility Decline in Canada Since the Great Recession",
+      "venue": "Canadian Studies in Population",
+      "volume": "51",
+      "year": 2024,
+      "id": "teng-margolis-2024"
+    },
+    {
+      "authors": [
+        "David E. Bloom",
+        "Michael Kuhn",
+        "Klaus Prettner"
+      ],
+      "camps": [
+        "Economic demand theory",
+        "Population policy"
+      ],
+      "citationVerified": true,
+      "doi": "10.1146/annurev-economics-081523-013750",
+      "issue": "1",
+      "keyArgument": "A comprehensive review of the economics literature on low fertility in high-income countries: what drives it, what it costs, and what can be done. The authors work through the standard drivers — rising opportunity costs of childbearing, housing and childcare costs, delayed partnership, uncertainty — without treating any single one as sufficient on its own.\n\nTheir distinctive contribution is on consequences and policy: they trace through aging, shrinking labor supply, and fiscal strain on pension and health systems, then argue that thoughtful, consistent policy design can mitigate most of these adverse economic consequences even without reversing the fertility decline itself. Useful as a state-of-the-field reference for the economic-consequences side of the literature, distinct from the many entries in this corpus focused on causes of the decline rather than its downstream effects.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1980,
+      "periodTo": 2024,
+      "regions": [
+        "High-income countries",
+        "Global"
+      ],
+      "sourceFile": "",
+      "title": "Fertility in High-Income Countries: Trends, Patterns, Determinants, and Consequences",
+      "venue": "Annual Review of Economics",
+      "volume": "16",
+      "year": 2024,
+      "id": "bloom-kuhn-prettner-2024"
+    },
+    {
+      "authors": [
         "Hannah Zagel"
       ],
       "camps": [
@@ -742,6 +1203,59 @@
       "title": "Reproduction Policy in the Twenty-First Century: A Comparative Analysis",
       "year": 2024,
       "id": "zagel-2024-book"
+    },
+    {
+      "authors": [
+        "Wanda Cabella",
+        "Mariana Fernández-Soto",
+        "Ignacio Pardo",
+        "Gabriela Pedetti"
+      ],
+      "camps": [
+        "Latin American structuralism",
+        "Classical transition theory"
+      ],
+      "citationVerified": true,
+      "issue": "16",
+      "keyArgument": "Uruguay's total fertility rate fell from 2.0 to 1.37 children per woman in just six years, 2015 to 2021 — among the fastest six-year drops recorded anywhere. The authors trace it to postponement of births, concentrated among adolescents and young women, compounding with a separate decline in higher-order births among older mothers; mean age at first birth rose by almost two years over the period.\n\nTheir cautious closing note is that the decline may already be stabilizing, with some potential for a modest rebound as postponed births are eventually realized — a hypothesis this corpus's period/cohort distinction (see Onofri et al. and Geruso-Spears) helps make precise: a period-rate collapse this steep can overstate the fall in completed cohort fertility if postponement is later recuperated.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2015,
+      "periodTo": 2021,
+      "regions": [
+        "Latin America"
+      ],
+      "sourceFile": "",
+      "title": "The Big Decline: Lowest-Low Fertility in Uruguay (2016–2021)",
+      "venue": "Demographic Research",
+      "volume": "50",
+      "year": 2024,
+      "id": "cabella-et-al-2024"
+    },
+    {
+      "authors": [
+        "I. Mahasneh",
+        "F. Ebrahim"
+      ],
+      "camps": [
+        "Classical transition theory"
+      ],
+      "citationVerified": true,
+      "doi": "10.1186/s43043-024-00205-6",
+      "keyArgument": "The first systematic cross-country accounting of the Arab world's fertility decline, using World Bank data across 2011 to 2021. The pattern is uneven rather than uniform: Jordan (down 24.3 percent), Iraq (22.2 percent) and Yemen (19.1 percent) saw the steepest falls, while Libya, Tunisia, Lebanon and Kuwait declined only slightly (around 4 to 5 percent), and Algeria showed essentially no decline over the decade. The UAE already held the region's lowest rate throughout the period, while Somalia remained the highest.\n\nThe paper does not offer a causal mechanism so much as establish the descriptive baseline this corpus otherwise lacks for the region: which Arab states are converging toward low fertility, which are not, and how large the gap between them already is.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2011,
+      "periodTo": 2021,
+      "regions": [
+        "Middle East"
+      ],
+      "sourceFile": "",
+      "title": "The Epidemiological Declining in the Human Fertility Rate in the Arab World for 10 Years Period 2011–2021",
+      "venue": "Middle East Fertility Society Journal",
+      "volume": "29",
+      "year": 2024,
+      "id": "mahasneh-ebrahim-2024"
     },
     {
       "authors": [
@@ -773,6 +1287,391 @@
     },
     {
       "authors": [
+        "Michael Geruso",
+        "Dean Spears"
+      ],
+      "camps": [
+        "Unrealized fertility",
+        "Quantity–quality"
+      ],
+      "citationVerified": true,
+      "citeKey": "geruso-spears-2025",
+      "keyArgument": "Geruso and Spears decompose the fall in cohort fertility below replacement into two distinct components that are often conflated: growing childlessness, and fewer children among women who have at least one. Using data spanning Europe, North and South America, Southeast Asia, and Indian districts, they find childlessness explains only 38 percent of the decline in advanced economies, and just 6 percent in the Indian context they study.\n\nThe bulk of the below-replacement decline, in other words, comes from parity progression — women having a first child but stopping sooner — not from a rising share never having children at all. This cuts against narratives that treat rising childlessness as the primary engine of the decline, and redirects attention toward whatever discourages a second or third birth once a first has occurred.",
+      "kind": "working paper",
+      "language": "en",
+      "periodFrom": 1980,
+      "periodTo": 2025,
+      "publisher": "National Bureau of Economic Research",
+      "regions": [
+        "Western Europe",
+        "Latin America",
+        "High-income countries",
+        "Developing countries"
+      ],
+      "sourceFile": "",
+      "title": "Childless or Child-fewer? Childlessness and Parity Progression where Fertility Is Below Replacement",
+      "url": "https://www.nber.org/papers/w33913",
+      "venue": "NBER Working Paper 33913",
+      "year": 2025,
+      "id": "geruso-spears-2025"
+    },
+    {
+      "authors": [
+        "Byung-Cheol Kim",
+        "Lianhua Li",
+        "Nam Hee Do",
+        "Sung-Hee Lee"
+      ],
+      "camps": [
+        "Population policy",
+        "Gender revolution"
+      ],
+      "citationVerified": true,
+      "doi": "10.1080/17516234.2025.2600310",
+      "keyArgument": "Using qualitative policy case studies across China, Japan and South Korea, the authors examine falling fertility not as a single national trend but as a pattern of \"stratified reproduction\" — the unequal valuing and support of different women's reproduction, a concept they trace to Colen (1995) and Ginsburg and Rapp (1995).\n\nAcross all three countries, fertility has fallen most sharply among women with lower education, income and job security: in Korea, women with only elementary education recorded a fertility rate of 0.17 in 2021 against a national rate of 0.78, while higher-educated Japanese women saw modest fertility gains even as the overall pattern kept falling. The authors argue pronatalist policy in all three states largely overlooks these intersectional structural barriers, and that reproduction being an individual right does not by itself guarantee universal support for exercising it — a comprehensive, not merely rhetorical, policy response is needed.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1970,
+      "periodTo": 2023,
+      "regions": [
+        "East Asia",
+        "Japan"
+      ],
+      "sourceFile": "",
+      "title": "Declining Fertility Rates and Stratified Reproduction among Women in East Asia: What Can We Learn from the Cases of China, Japan and South Korea?",
+      "venue": "Journal of Asian Public Policy",
+      "year": 2025,
+      "id": "kim-et-al-2025"
+    },
+    {
+      "authors": [
+        "Economic Commission for Latin America and the Caribbean"
+      ],
+      "camps": [
+        "Classical transition theory",
+        "Population policy",
+        "Latin American structuralism"
+      ],
+      "citationVerified": true,
+      "keyArgument": "The region's own statistical and policy body documents what is now a decade-old below-replacement trend: total fertility has been under 2.1 across Latin America and the Caribbean since 2015, reaching 1.8 in Latin America and just 1.5 in the Caribbean by 2024.\n\nThe report goes beyond the aggregate number to examine socioeconomic inequality in reproductive behavior within countries and to survey family-policy responses across the region. As the direct institutional successor to the CELADE reports already in this corpus (Guzmán and colleagues, 1991–2006), it extends that same regional tradition of tracking the transition into the low-fertility era the earlier reports could only anticipate.",
+      "kind": "report",
+      "language": "en",
+      "periodFrom": 1960,
+      "periodTo": 2024,
+      "publisher": "Economic Commission for Latin America and the Caribbean (ECLAC/CEPAL)",
+      "regions": [
+        "Latin America",
+        "Caribbean"
+      ],
+      "sourceFile": "",
+      "title": "Demographic Observatory 2025: Low Fertility in Latin America and the Caribbean — Emerging Trends and Dynamics",
+      "url": "https://www.cepal.org/en/publications/82933-demographic-observatory-2025-low-fertility-latin-america-and-caribbean-emerging",
+      "venue": "ECLAC Demographic Observatory",
+      "year": 2025,
+      "id": "eclac-2025"
+    },
+    {
+      "authors": [
+        "I.O. Ayodeji"
+      ],
+      "camps": [
+        "Institutional sociology",
+        "Population policy"
+      ],
+      "citationVerified": true,
+      "keyArgument": "Fitting a Markov switching model to South Korean fertility data from 1960 to 2023, Ayodeji identifies two structurally distinct regimes rather than one continuous decline: a sharp 17.3 percent annual fall from 1960 to 1988, driven by the classic transition mechanisms, followed by a much more gradual 2.5 percent annual decline from 1989 onward that behaves like a different process entirely.\n\nThe second regime shows smaller fluctuations and a 56.3 percent estimated probability of persisting, which the author reads as statistical support for the low-fertility trap hypothesis — the idea that once a society settles into sufficiently low fertility, self-reinforcing mechanisms (smaller reference-group family sizes, eroded family-formation institutions) make a return to higher fertility structurally difficult regardless of policy. The distinction between the two regimes is a useful corrective to treating South Korea's decline as one continuous process amenable to one continuous explanation.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1960,
+      "periodTo": 2023,
+      "regions": [
+        "East Asia"
+      ],
+      "sourceFile": "",
+      "title": "Empirical Insights into South Korea's Persistent Low Fertility and the Path Forward for Pro-Natalist Policies",
+      "venue": "China Population and Development Studies",
+      "year": 2025,
+      "id": "ayodeji-2025"
+    },
+    {
+      "authors": [
+        "Rune Lindahl-Jacobsen",
+        "Astrid Linnea Beck",
+        "Lærke Priskorn",
+        "Stine A. Holmboe",
+        "Margit Bistrup Fischer",
+        "Anna-Maria Andersson",
+        "Niels E. Skakkebæk"
+      ],
+      "camps": [
+        "Biological fecundity"
+      ],
+      "citationVerified": true,
+      "keyArgument": "Against accounts that treat the fertility crisis as purely social and economic, this paper marshals evidence that biological fecundity itself is declining. Markers of decreased fecundity — poor semen quality, rising female infertility — are increasing, alongside a growing share of couples needing medically assisted reproduction.\n\nThe paper's methodological contribution is a new index, the comprehensive unassisted pregnancy rate (live births plus induced abortions, excluding births via assisted reproduction), meant to isolate a population's underlying fecundity from its fertility behavior. In the handful of high-income countries where it can be constructed, this rate has been declining steadily across successive decades — a trend that cannot be explained by postponement or preference alone, and that most of the social-science literature on fertility decline does not engage with at all.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1990,
+      "periodTo": 2025,
+      "regions": [
+        "High-income countries",
+        "Global"
+      ],
+      "sourceFile": "",
+      "title": "Evidence That Declining Human Fecundity Contributes to the Fertility Crisis",
+      "venue": "Fertility and Sterility",
+      "year": 2025,
+      "id": "lindahl-jacobsen-2025"
+    },
+    {
+      "authors": [
+        "Katia Begall",
+        "Nicole Hiekel"
+      ],
+      "camps": [
+        "Gender revolution",
+        "Subjective turn"
+      ],
+      "citationVerified": true,
+      "issue": "2",
+      "keyArgument": "Macro-level gender-equity theory, most associated with McDonald, predicts that fertility should stabilize or rise once societies combine gender equality in public institutions with gender equality inside the family. Denmark, Finland and Norway are among the most gender-equal societies in the world by any standard measure, and their fertility has been falling all the same — the paradox the title names.\n\nUsing a multidimensional gender-equality-attitudes instrument from the 2020–2022 Generations and Gender Programme across all three countries (n=13,184), Begall and Hiekel find distinct attitude profiles among respondents that relate clearly to fertility intentions among the childless, even though the countries' aggregate gender-equality scores would predict otherwise. The implication is that macro-level gender-equity theory may be too coarse an instrument: what matters is not a country's gender-equality score but which specific configuration of gender attitudes an individual holds.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2020,
+      "periodTo": 2022,
+      "regions": [
+        "Finland",
+        "Norway",
+        "Denmark",
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "Examining the Gender Equality–Fertility Paradox in Three Nordic Countries",
+      "venue": "Population and Development Review",
+      "volume": "51",
+      "year": 2025,
+      "id": "begall-hiekel-2025"
+    },
+    {
+      "authors": [
+        "Ignacio Pardo",
+        "Natalia Sacco",
+        "Enrique Acosta"
+      ],
+      "camps": [
+        "Latin American structuralism",
+        "Classical transition theory"
+      ],
+      "citationVerified": true,
+      "issue": "9",
+      "keyArgument": "Where research on the 2000s highlighted reductions in higher-order births and first-birth postponement as the joint drivers of Latin America's fertility decline, this paper isolates what changed in the following decade. Using period-, age-, and order-specific rates across six countries representing roughly three-quarters of the region's population, plus Latinx populations in the United States, the authors find that 49 to 85 percent of the 2011–2020 decline is concentrated in the youngest age groups.\n\nThe implication is a shift in mechanism: first-birth postponement, not reduced higher-order childbearing, is now the primary engine of the region's continuing fall into low and lowest-low fertility. Read against the Onofri-Berniell-Fernández-Menduiña NBER paper also in this corpus, the two studies converge on postponement and within-group change as the region's dominant story, rather than compositional shifts in education or urbanization.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2000,
+      "periodTo": 2020,
+      "regions": [
+        "Latin America",
+        "United States"
+      ],
+      "sourceFile": "",
+      "title": "Fertility Decline to Low and Lowest-Low Levels in Latin America",
+      "venue": "Population Research and Policy Review",
+      "volume": "44",
+      "year": 2025,
+      "id": "pardo-sacco-acosta-2025"
+    },
+    {
+      "authors": [
+        "United Nations Children's Fund"
+      ],
+      "camps": [
+        "Classical transition theory",
+        "Population policy"
+      ],
+      "citationVerified": true,
+      "keyArgument": "A regional report covering all five Central Asian states finds a demographic bloc that can no longer be described with one number. Uzbekistan's total fertility rate continues to rise, reaching 3.4 in 2023, the highest in the region, even as Kazakhstan and Turkmenistan approach or dip under replacement level and births in Kazakhstan itself are already declining.\n\nThe divergence matters for any theory of fertility transition timing: five countries with a shared Soviet institutional inheritance and broadly similar starting conditions three decades ago are now on visibly different trajectories, which argues against reading \"post-Soviet space\" as a single explanatory category the way \"East Asia\" or \"Western Europe\" sometimes are in this literature.",
+      "kind": "report",
+      "language": "en",
+      "periodFrom": 1991,
+      "periodTo": 2025,
+      "publisher": "UNICEF Regional Office for Europe and Central Asia",
+      "regions": [
+        "Central Asia"
+      ],
+      "sourceFile": "",
+      "title": "Generation 2050 in Central Asia: Interim Regional Report",
+      "url": "https://www.unicef.org/eca/media/42726/file/Generation%202050%20in%20Central%20Asia.pdf",
+      "venue": "UNICEF Regional Report",
+      "year": 2025,
+      "id": "unicef-2025-central-asia"
+    },
+    {
+      "authors": [
+        "Bernardus Ferdinandus Nazar Van Doornik",
+        "Dimas Fazio",
+        "Tarun Ramadorai",
+        "Janis Skrastiņš"
+      ],
+      "camps": [
+        "Economic demand theory",
+        "Family institutions"
+      ],
+      "citationVerified": true,
+      "keyArgument": "Using Brazil's consorcio housing-credit lotteries as a natural experiment — participants pool contributions and periodically receive housing credit by random draw — the authors isolate a causal effect of housing access on fertility that observational studies cannot cleanly identify. Winning housing credit raises the average probability of having a child by 3.8 percent and completed children by 3.2 percent.\n\nThe effect is sharply concentrated by age: for 20-to-25-year-olds the increase in probability and children is 32 to 33 percent, while above age 40 there is no detectable effect at all. It is also strongest among lower-income households and those in poor-quality or high-rent housing, exactly where a housing constraint on family formation should bind hardest. This is among the cleanest causal evidence in the corpus that a specific material constraint — not merely correlated with fertility but experimentally shown to affect it — can suppress childbearing among the young in particular.",
+      "kind": "working paper",
+      "language": "en",
+      "periodFrom": 2000,
+      "periodTo": 2025,
+      "publisher": "Centre for Economic Policy Research",
+      "regions": [
+        "Latin America"
+      ],
+      "sourceFile": "",
+      "title": "Housing and Fertility",
+      "url": "https://cepr.org/publications/dp19805",
+      "venue": "CEPR Discussion Paper 19805",
+      "year": 2025,
+      "id": "van-doornik-et-al-2025"
+    },
+    {
+      "authors": [
+        "Carmen Friedrich",
+        "Martin Bujard"
+      ],
+      "camps": [
+        "Unrealized fertility",
+        "Quantity–quality"
+      ],
+      "citationVerified": true,
+      "keyArgument": "Using Generations and Gender Survey data collected during and after the COVID-19 pandemic (2020–2023) across eleven European countries, Friedrich and Bujard compare three distinct measures that are often conflated: intended, ideal, and actual family size, broken out by age group.\n\nIntended family size among 18-to-29-year-olds ranges widely, from 1.82 in Finland to 2.47 in Moldova, and the gap between women's mean ideal and actual family size at ages 40 to 49 ranges from 0.42 to 0.63 children depending on the country. The determinants shift across the life course: religiosity matters most for intentions formed early, while education matters most during the primary family-formation phase. The multi-country, multi-measure design makes this a useful empirical anchor for any claim about where in the life course a fertility gap actually opens.",
+      "kind": "working paper",
+      "language": "en",
+      "periodFrom": 2020,
+      "periodTo": 2023,
+      "publisher": "Bundesinstitut für Bevölkerungsforschung (Federal Institute for Population Research, Germany)",
+      "regions": [
+        "Western Europe",
+        "Finland"
+      ],
+      "sourceFile": "",
+      "title": "Intended, Ideal, and Actual Fertility in 11 European Countries: Evidence on Fertility Gaps in Different Age Groups from the Generations and Gender Survey",
+      "url": "https://www.bib.bund.de/Publikation/2025/Intended-ideal-and-actual-fertility-in-11-European-countries.html",
+      "venue": "BiB Working Paper 2/2025",
+      "year": 2025,
+      "id": "friedrich-bujard-2025"
+    },
+    {
+      "authors": [
+        "Serhan Cevik"
+      ],
+      "camps": [
+        "Economic demand theory",
+        "Population policy"
+      ],
+      "citationVerified": true,
+      "keyArgument": "Cevik inverts the usual causal question in fertility-and-growth work: rather than asking how growth affects fertility, he asks how fertility affects growth. Using a panel of 42 European countries from 1960 to 2022 and an instrumental-variable strategy — a comparative index of abortion-law liberalization as an instrument for the total fertility rate — he finds a significant positive effect of fertility on real GDP per capita growth.\n\nThe paper is squarely in the economic-demand tradition but points policy attention toward the growth costs of continued fertility decline, giving the \"lost generations\" framing a quantitative causal claim rather than a demographic projection alone.",
+      "kind": "working paper",
+      "language": "en",
+      "periodFrom": 1960,
+      "periodTo": 2022,
+      "publisher": "International Monetary Fund",
+      "regions": [
+        "Western Europe",
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "Lost Generations? Fertility and Economic Growth in Europe",
+      "url": "https://www.imf.org/en/publications/wp/issues/2025/03/21/lost-generations-fertility-and-economic-growth-in-europe-565380",
+      "venue": "IMF Working Paper 2025/055",
+      "year": 2025,
+      "id": "cevik-2025"
+    },
+    {
+      "authors": [
+        "Elena Vakulenko",
+        "Ilya Trofimenko",
+        "Valeria Kondrateva",
+        "Dmitriy Gorskiy"
+      ],
+      "camps": [
+        "Subjective turn",
+        "Narratives of the future"
+      ],
+      "citationVerified": true,
+      "issue": "29",
+      "keyArgument": "Surveying 7,967 Russians in May 2023, during the economic and social shock of the war in Ukraine, the authors find that standard demographic predictors of fertility intentions — age, marital status, parenthood status — carry less explanatory weight than subjective and emotional factors. Women's fertility decisions in particular track positive emotional states, happiness and a sense of peacefulness, more closely than men's do.\n\nPolitical anxiety, conflict-related stress and emotional state are found to amplify one another rather than operating as separate, additive pressures, and trust in state policy emerges as a factor that smooths the population's reaction to shocks. A rare scholarly window into fertility decision-making under acute, state-driven uncertainty, complementing this corpus's Vignoli-school narratives-of-the-future framework with a case where the uncertainty is not economic but political and existential.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2022,
+      "periodTo": 2023,
+      "regions": [
+        "Russia"
+      ],
+      "sourceFile": "",
+      "title": "Periods of High Uncertainty: How Fertility Intentions in Russia Changed During 2022–2023",
+      "venue": "Demographic Research",
+      "volume": "52",
+      "year": 2025,
+      "id": "vakulenko-et-al-2025"
+    },
+    {
+      "authors": [
+        "Kelly Atkinson",
+        "Tahina Montoya",
+        "Michael S. Pollard",
+        "Libby Weaver",
+        "Flora Sheng",
+        "Kelly Piazza",
+        "Agnes Xiangzhen Wang"
+      ],
+      "camps": [
+        "Population policy"
+      ],
+      "citationVerified": true,
+      "keyArgument": "A systematic review of China's decade of pronatalist policy shifts — from the universal two-child policy in 2015 to the three-child policy in 2021 — against the plain fact that none of it reversed the fertility decline or restored population growth. Written explicitly to draw lessons for U.S. policymakers, the report treats China's experience as a natural experiment in the limits of state-directed family-size policy.\n\nIts value for this corpus is less any single mechanism than the scale of the null result: a state with far more policy instruments at its disposal than most democracies, deployed with real urgency over ten years, still could not move fertility. That sets a high bar for the plausibility of any weaker, softer pronatalist intervention elsewhere.",
+      "kind": "report",
+      "language": "en",
+      "periodFrom": 2015,
+      "periodTo": 2025,
+      "publisher": "RAND Corporation",
+      "regions": [
+        "East Asia"
+      ],
+      "sourceFile": "",
+      "title": "Pronatalist Pivot: Assessing China's Policy Efforts to Boost Fertility",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4348-1.html",
+      "venue": "RAND Corporation Research Report",
+      "year": 2025,
+      "id": "atkinson-et-al-2025"
+    },
+    {
+      "authors": [
+        "Wei-Jun Jean Yeung",
+        "Jeofrey Bautista Abalos"
+      ],
+      "camps": [
+        "Institutional sociology",
+        "Family institutions"
+      ],
+      "citationVerified": true,
+      "citeKey": "yeung-abalos-2025",
+      "keyArgument": "Part of a Lancet Regional Health series on low birth rates in the Asia-Pacific, this review reconstructs six decades of fertility trends across East, Southeast and South Asia and asks what drove them at the level of social structure rather than individual choice.\n\nThe comparative frame is the contribution: rather than treating East Asia's ultra-low fertility as a single regional story, Yeung and Abalos trace how education expansion, marriage timing, labor-market structure and family policy produced distinct trajectories across three sub-regions that are often collapsed together in the broader \"Asian fertility decline\" narrative.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1965,
+      "periodTo": 2025,
+      "regions": [
+        "East Asia",
+        "Global"
+      ],
+      "sourceFile": "",
+      "title": "Social Determinants of Low Fertility in Asia: A Comparative Review of Trends in East, Southeast and South Asia",
+      "venue": "The Lancet Regional Health – Western Pacific",
+      "volume": "65",
+      "year": 2025,
+      "id": "yeung-abalos-2025"
+    },
+    {
+      "authors": [
         "Katya Ivanova"
       ],
       "camps": [
@@ -797,6 +1696,84 @@
       "volume": "81",
       "year": 2025,
       "id": "ivanova-2025"
+    },
+    {
+      "authors": [
+        "United Nations Population Fund"
+      ],
+      "camps": [
+        "Population policy",
+        "Subjective turn",
+        "Unrealized fertility"
+      ],
+      "citationVerified": true,
+      "keyArgument": "UNFPA's flagship annual report reframes the entire policy conversation: the real crisis, it argues, is not demographic decline but a crisis of reproductive agency — the inability of people to have the families they actually want, in either direction. A 14-country YouGov survey commissioned for the report finds that close to 20 percent of reproductive-age adults expect to have fewer children than they desire, with financial limitations, job insecurity and housing concerns cited as the largest obstacles.\n\nThe report's policy conclusion runs directly counter to pronatalist alarm: rather than engineering fertility rates upward, states should expand people's real capacity to decide the number, spacing and timing of their children. As the sector's most widely cited annual statement, this gives the corpus's population-policy camp its most prominent recent global counterweight to demographic-collapse framing.",
+      "kind": "report",
+      "language": "en",
+      "periodFrom": 2010,
+      "periodTo": 2025,
+      "publisher": "United Nations Population Fund",
+      "regions": [
+        "Global"
+      ],
+      "sourceFile": "",
+      "title": "State of World Population 2025: The Real Fertility Crisis — The Pursuit of Reproductive Agency in a Changing World",
+      "url": "https://www.unfpa.org/swp2025",
+      "venue": "UNFPA flagship report",
+      "year": 2025,
+      "id": "unfpa-2025"
+    },
+    {
+      "authors": [
+        "Nazila Nejhaddadgar",
+        "Afrouz Mardi",
+        "Maryam Zare"
+      ],
+      "camps": [
+        "Population policy"
+      ],
+      "citationVerified": true,
+      "doi": "10.3389/frph.2025.1520027",
+      "keyArgument": "A comparative cross-sectional study set against Iran's 2022 restriction of contraceptive access, part of the country's broader pronatalist turn. In the Ardabil study population, the policy shifted women away from effective contraception toward less reliable traditional methods, and the reproductive-health consequences were immediate and measurable: unwanted pregnancies rose from 28.5 to 49.25 percent, and abortions from 14.25 to 21.75 percent.\n\nThe paper is a sharply measured case of a pronatalist restriction working against its own stated purpose — rather than converting unwanted non-pregnancy into wanted childbearing, restricting contraception appears mainly to have converted planned non-pregnancy into unplanned pregnancy and abortion. A useful counterweight to any account of pronatalist policy that assumes restricting family planning straightforwardly raises fertility.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2020,
+      "periodTo": 2025,
+      "regions": [
+        "Middle East"
+      ],
+      "sourceFile": "",
+      "title": "The Impact of New Population Policies on Women's Reproductive Health Pattern in Ardabil, Iran: A Comparative Cross-Sectional Study",
+      "venue": "Frontiers in Reproductive Health",
+      "volume": "7",
+      "year": 2025,
+      "id": "nejhaddadgar-et-al-2025"
+    },
+    {
+      "authors": [
+        "Wanda Cabella",
+        "Cecilia Velázquez"
+      ],
+      "camps": [
+        "Latin American structuralism",
+        "Quantity–quality"
+      ],
+      "citationVerified": true,
+      "issue": "4",
+      "keyArgument": "Covering Argentina, Brazil, Chile, Costa Rica and Uruguay from 2010 to 2022, this paper asks a question the aggregate national TFR numbers cannot answer on their own: is the fall into very low fertility mainly a compositional effect — more women becoming educated, and educated women already having fewer children — or is fertility falling within every educational group regardless of composition?\n\nApplying a Kitagawa decomposition across the five countries, the authors find fertility declining across all educational levels in nearly all countries, with the sharpest declines among less-educated women specifically — the opposite of what a pure composition story would predict, since a shrinking less-educated population having many fewer children contributes more to the aggregate fall than education-driven population shifts alone. Read alongside the Onofri-Berniell-Fernández-Menduiña and Arana-Ovalle entries in this corpus, this strengthens the case that within-group change, not compositional shift, is driving Latin America's fertility collapse.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2010,
+      "periodTo": 2022,
+      "regions": [
+        "Latin America"
+      ],
+      "sourceFile": "",
+      "title": "The Recent Decline to Very Low Fertility Levels by Education in Five Latin American Countries (2010–2022)",
+      "venue": "Journal of Population Research",
+      "volume": "42",
+      "year": 2025,
+      "id": "cabella-velazquez-2025"
     },
     {
       "authors": [
@@ -828,6 +1805,110 @@
       "volume": "53",
       "year": 2025,
       "id": "yeatman-smith-greenaway-2025"
+    },
+    {
+      "authors": [
+        "Roxana Arana-Ovalle",
+        "Lisa Dillon",
+        "Alejandro Murua",
+        "Francisco Zamudio-Sánchez"
+      ],
+      "camps": [
+        "Ideational & diffusion",
+        "Latin American structuralism"
+      ],
+      "citationVerified": true,
+      "keyArgument": "Tracing Mexico's fertility transition from 1930 to 2015 across four distinct population groups — urban and rural, Indigenous and non-Indigenous — the authors find a concentric diffusion pattern: fertility decline spread outward geographically and socially from urban, high-status municipalities, consistent with prestige-bias and conformism-bias mechanisms of cultural transmission.\n\nThe four groups did not transition in lockstep. Urban non-Indigenous populations moved fastest; rural non-Indigenous groups stagnated for a period; rural Indigenous populations experienced delayed onset; and urban Indigenous groups showed the most sustained resistance to decline. The finding complicates a simple socioeconomic-status account of the transition — status predicts the decline's direction consistently, but not its timing or pace, once ethnicity and geography are allowed to interact with it.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1930,
+      "periodTo": 2015,
+      "regions": [
+        "Latin America"
+      ],
+      "sourceFile": "",
+      "title": "Unveiling Mexico's Demographic Transitions",
+      "venue": "Studies in Family Planning",
+      "year": 2025,
+      "id": "arana-ovalle-et-al-2025"
+    },
+    {
+      "authors": [
+        "Melissa Schettini Kearney",
+        "Phillip B. Levine"
+      ],
+      "camps": [
+        "Economic demand theory",
+        "Subjective turn"
+      ],
+      "citationVerified": true,
+      "citeKey": "kearney-levine-2025",
+      "keyArgument": "Kearney and Levine document the now-familiar facts — falling total fertility and rising lifetime childlessness across wealthy nations — and then argue against explaining them with a purely economic model of costs and constraints.\n\nTheir account centers on a broad shift in priorities: evolving norms around work, gender roles, and an expanded menu of lifestyle options have together reduced how central parenthood is to a well-lived life, for reasons that resist reduction to price and income effects alone. The paper reads as a deliberate rebuttal to demand-theory accounts that expect income and cost shocks to do most of the explanatory work.",
+      "kind": "working paper",
+      "language": "en",
+      "periodFrom": 2000,
+      "periodTo": 2025,
+      "publisher": "National Bureau of Economic Research",
+      "regions": [
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "Why Is Fertility So Low in High-Income Countries?",
+      "url": "https://www.nber.org/papers/w33989",
+      "venue": "NBER Working Paper 33989 (rev. January 2026)",
+      "year": 2025,
+      "id": "kearney-levine-2025"
+    },
+    {
+      "authors": [
+        "Stuart Gietel-Basten",
+        "Ignacio Pardo"
+      ],
+      "camps": [
+        "Classical transition theory",
+        "Institutional sociology"
+      ],
+      "citationVerified": true,
+      "citeKey": "gietel-basten-2026",
+      "doi": "10.1111/padr.70052",
+      "keyArgument": "A quarter-century after the term was coined, Gietel-Basten and Pardo argue that \"lowest-low fertility\" (originally, a total fertility rate at or below 1.3) has stopped doing useful analytical work. The label was built to flag a shared alarm, not a shared future, and it now groups countries with very different migration regimes, mortality trajectories, human-capital endowments and institutional capacities under one number.\n\nTheir proposed replacement is explicitly multidimensional: understanding a population's actual trajectory requires migration, mortality reduction, human capital and institutions treated as co-equal with fertility itself, not as footnotes to it. The paper is best read as a corrective to any account of \"post-transitional\" societies that still reasons primarily from the TFR.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1990,
+      "periodTo": 2026,
+      "regions": [
+        "Global",
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "Beyond Lowest-Low Fertility: Why Post-Transitional Populations Follow Divergent Paths",
+      "venue": "Population and Development Review",
+      "year": 2026,
+      "id": "gietel-basten-pardo-2026"
+    },
+    {
+      "authors": [
+        "Ginevra Floridi",
+        "Maria Gargiulo",
+        "José Manuel Aburto"
+      ],
+      "camps": [
+        "Latin American structuralism"
+      ],
+      "citationVerified": true,
+      "keyArgument": "Since 2006, Mexico's drug war has driven homicide rates to levels that reshaped mortality and migration across the country, yet whether the resulting violence affected fertility was largely untested. Using administrative birth, death and homicide data for 2,443 municipalities from 2000 to 2020, fixed-effects models and a staggered difference-in-differences design, the authors find essentially no average effect of homicide rates on the total fertility rate, crude birth rate, or fertility desires.\n\nThe one partial exception is that municipalities hit by very large homicide spikes between 2010 and 2015 saw slightly faster fertility decline than otherwise similar places. The headline finding is a null result the authors describe as \"remarkable continuity\": Mexico's ongoing structural fertility decline proceeded on trend largely undisturbed by an extreme, geographically concentrated mortality shock, which argues against treating community violence as a first-order driver of fertility change even where the violence is severe.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2000,
+      "periodTo": 2020,
+      "regions": [
+        "Latin America"
+      ],
+      "sourceFile": "",
+      "title": "Changes in Fertility Trends and Women's Fertility Desires in the Wake of the Homicide Surge in Mexico",
+      "venue": "Population Research and Policy Review",
+      "year": 2026,
+      "id": "floridi-et-al-2026"
     },
     {
       "authors": [
@@ -922,6 +2003,33 @@
     },
     {
       "authors": [
+        "Yared Mekonnen",
+        "Daniel Telake"
+      ],
+      "camps": [
+        "Institutional sociology",
+        "Family institutions"
+      ],
+      "citationVerified": true,
+      "doi": "10.1186/s12963-026-00481-6",
+      "issue": "45",
+      "keyArgument": "Applying Bongaarts's proximate-determinants framework to 19 major sub-Saharan African cities spanning different stages of the fertility transition, the authors ask which mechanism does the work at each stage rather than treating the transition as one uniform process. Contraceptive use accounts for most of the early decline as cities first begin falling from high fertility, explaining 20 to 32 percent of variation depending on the transition stage examined.\n\nBut once cities reach the advanced, late-transition stage, marriage patterns — delayed marriage age, changing union types — take over as the dominant mechanism sustaining lower fertility, accounting for roughly 38 percent of the fertility gap between post-transition and late-transition cities. This is the corpus's most direct empirical test of which African cities have actually reached an \"advanced\" transition and what is holding their fertility down once they get there, rather than treating Sub-Saharan Africa as uniformly high-fertility.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1990,
+      "periodTo": 2026,
+      "regions": [
+        "Sub-Saharan Africa"
+      ],
+      "sourceFile": "",
+      "title": "Fertility Transition Across Major Sub-Saharan African Cities: The Role of Proximate Determinants",
+      "venue": "Population Health Metrics",
+      "volume": "24",
+      "year": 2026,
+      "id": "mekonnen-telake-2026"
+    },
+    {
+      "authors": [
         "Gunnar Andersson"
       ],
       "camps": [
@@ -946,6 +2054,34 @@
       "venue": "Committee for a Future with Children, Publication 2026:2",
       "year": 2026,
       "id": "andersson-2026"
+    },
+    {
+      "authors": [
+        "Kathryn Christine Beck",
+        "Julia Hellstrand",
+        "Mikko Myrskylä"
+      ],
+      "camps": [
+        "Quantity–quality",
+        "Economic demand theory"
+      ],
+      "citationVerified": true,
+      "issue": "1",
+      "keyArgument": "Rising education is one of the most common explanations offered for falling fertility, but studies rarely separate two distinct things bundled inside it: the temporary effect of being enrolled in education right now, which mechanically delays childbearing, and the permanent effect of the education ultimately attained, which may or may not lower completed fertility independent of enrollment timing.\n\nDecomposing Norway's fertility decline along exactly this line, Beck, Hellstrand and Myrskylä isolate how much each component contributes. The distinction matters for policy and theory alike: an enrollment-driven decline is compatible with fertility recovering once study periods end, while an attainment-driven decline implies something more permanent about how higher education itself reshapes family-size preferences or capacities, regardless of when it was completed.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1990,
+      "periodTo": 2022,
+      "regions": [
+        "Norway",
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "More Education and Fewer Children? The Contribution of Educational Enrollment and Attainment to the Fertility Decline in Norway",
+      "venue": "Demography",
+      "volume": "63",
+      "year": 2026,
+      "id": "beck-hellstrand-myrskyla-2026"
     },
     {
       "authors": [
@@ -1066,6 +2202,177 @@
       "venue": "NBER Working Paper 35532",
       "year": 2026,
       "id": "fang-liu-2026"
+    },
+    {
+      "authors": [
+        "Ewa Batyra",
+        "Ben Wilson"
+      ],
+      "camps": [
+        "Quantity–quality",
+        "Classical transition theory"
+      ],
+      "citationVerified": true,
+      "doi": "10.1111/padr.70079",
+      "keyArgument": "Most accounts of a fertility transition track the mean number of children per woman as it falls. Batyra and Wilson ask a structurally different question: what happens to the distribution of reproduction across the population as that mean declines — does parenthood become more evenly spread across women, or does it concentrate among a shrinking share who have children while a growing share have none or very few?\n\nFor Brazil, they document a declining spread of parenthood as the transition proceeds, meaning the population is not converging on a smaller shared family size so much as diverging into more differentiated reproductive outcomes. This reframes the standard transition narrative: the interesting variation is not only in how many children the average woman has, but in how unequally reproduction itself comes to be distributed as fertility falls.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1960,
+      "periodTo": 2026,
+      "regions": [
+        "Latin America"
+      ],
+      "sourceFile": "",
+      "title": "The Distribution of Reproduction during a Fertility Transition: Declining Spread of Parenthood in Brazil",
+      "venue": "Population and Development Review",
+      "year": 2026,
+      "id": "batyra-wilson-2026"
+    },
+    {
+      "authors": [
+        "Michael Geruso",
+        "Dean Spears"
+      ],
+      "camps": [
+        "Unrealized fertility",
+        "Economic demand theory"
+      ],
+      "citationVerified": true,
+      "citeKey": "geruso-spears-2026-jep",
+      "doi": "10.1257/jep.20251463",
+      "issue": "1",
+      "keyArgument": "Distinguishing cohort from period fertility measures, Geruso and Spears note a pattern that argues against treating today's low fertility as a temporary dip: where cohort birth rates have fallen low, they have not subsequently rebounded. That asymmetry — easy to fall, hard to recover — is the paper's central empirical claim.\n\nThe decline they trace runs through both channels at once: rising lifetime childlessness and smaller completed families among those who do have children. Read alongside their companion NBER working paper on the same decomposition, this JEP piece is the accessible synthesis aimed at a general economics readership rather than a specialist one, but its \"has not rebounded\" framing adds something the working paper does not emphasize as sharply.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1950,
+      "periodTo": 2026,
+      "regions": [
+        "Global",
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "The Likelihood of Persistently Low Global Fertility",
+      "venue": "Journal of Economic Perspectives",
+      "volume": "40",
+      "year": 2026,
+      "id": "geruso-spears-2026-jep"
+    },
+    {
+      "authors": [
+        "Claudia Goldin"
+      ],
+      "camps": [
+        "Gender revolution",
+        "Economic demand theory"
+      ],
+      "citationVerified": true,
+      "citeKey": "goldin-2026",
+      "keyArgument": "Goldin locates the decline of fertility in a widening mismatch between men's and women's preferences over the terms of a traditional division of labor. As women's autonomy rose — through education, earnings potential and the ability to support themselves independently — the old arrangement stopped being one women would simply accept, while men, who benefited more from preserving it, were slower to renegotiate its terms.\n\nFaced with a partner market that has not adjusted as fast as their own aspirations, career-oriented women increasingly forgo or postpone parenthood rather than accept a bargain that no longer reflects their bargaining power. The mismatch framing gives the gender-revolution literature a specific mechanism — a stalled renegotiation between the sexes — rather than a general reference to changing norms.",
+      "kind": "working paper",
+      "language": "en",
+      "periodFrom": 1970,
+      "periodTo": 2026,
+      "publisher": "National Bureau of Economic Research",
+      "regions": [
+        "United States",
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "The Rise of Female Autonomy and the Decline of Fertility: The Role of Mismatch",
+      "url": "https://www.nber.org/papers/w35425",
+      "venue": "NBER Working Paper 35425",
+      "year": 2026,
+      "id": "goldin-2026"
+    },
+    {
+      "authors": [
+        "Milagros Onofri",
+        "Inés Berniell",
+        "Raquel Fernández",
+        "Azul Menduiña"
+      ],
+      "camps": [
+        "Quantity–quality",
+        "Economic demand theory"
+      ],
+      "citationVerified": true,
+      "keyArgument": "Onofri, Berniell, Fernández and Menduiña decompose Latin America's fertility decline between 2000 and 2022 and find it is driven mainly by within-group reductions — fertility falling for a given age and education level — rather than by the population shifting toward groups (older, more educated) that already had fewer children. The reduction is concentrated among younger and less-educated women, which cuts against a simple story of rising education mechanically lowering the aggregate rate.\n\nComparing women born in the mid-1950s to those born in the mid-1970s, they show lower completed fertility reflects both delayed childbearing and a real reduction in the average number of children per woman who does have children, not a rise in childlessness. This gives the region's decline a similar shape to the Geruso-Spears finding for the Indian context already in this corpus: parity progression, not childlessness, doing most of the work.",
+      "kind": "working paper",
+      "language": "en",
+      "periodFrom": 1950,
+      "periodTo": 2022,
+      "publisher": "National Bureau of Economic Research",
+      "regions": [
+        "Latin America"
+      ],
+      "sourceFile": "",
+      "title": "Understanding Latin America's Fertility Decline: Age, Education, and Cohort Dynamics",
+      "url": "https://www.nber.org/papers/w34749",
+      "venue": "NBER Working Paper 34749",
+      "year": 2026,
+      "id": "onofri-et-al-2026"
+    },
+    {
+      "authors": [
+        "Giulia Feltrin",
+        "Valeria Ferraretto",
+        "Raffaele Guetto",
+        "Rebecca Soldo",
+        "Agnese Vitali"
+      ],
+      "camps": [
+        "Unrealized fertility",
+        "Subjective turn"
+      ],
+      "citationVerified": true,
+      "issue": "3",
+      "keyArgument": "A brief but sharp empirical statement of the desired/achieved fertility gap, set in the most extreme low-fertility context in Europe: Italy, at a total fertility rate of 1.18 in 2024 and the continent's highest mean age at first birth, 31.8 years, in 2023.\n\nThe authors find that more than half of Italian men and women reach the end of their reproductive years wishing they had had more children than they did — unmet fertility desire on a scale that makes it a central, not marginal, feature of the Italian case. Read alongside the corpus's other unrealized-fertility entries, Italy stands as the sharpest test case: if desire itself is falling as fast as some theories propose, an unmet-desire gap this large is harder to explain than one where desire and constraint both matter.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2000,
+      "periodTo": 2024,
+      "regions": [
+        "Western Europe"
+      ],
+      "sourceFile": "",
+      "title": "Unmet Fertility Desires: Evidence from a Lowest-Low Fertility Context",
+      "venue": "Population Research and Policy Review",
+      "volume": "45",
+      "year": 2026,
+      "id": "feltrin-et-al-2026"
+    },
+    {
+      "authors": [
+        "Cevat Giray Aksoy",
+        "Jose Maria Barrero",
+        "Nicholas Bloom",
+        "Katelyn Cranney",
+        "Steven J. Davis",
+        "Mathias Dolls",
+        "Pablo Zarate"
+      ],
+      "camps": [
+        "Economic demand theory",
+        "Family institutions"
+      ],
+      "citationVerified": true,
+      "keyArgument": "Drawing on the Global Survey of Working Arrangements and the U.S. Survey of Working Arrangements and Attitudes, the authors find that both realized fertility (2021 to early 2025) and planned future fertility are higher among adults who work from home at least one day a week — and higher still among couples where both partners do. Estimated lifetime fertility is 0.32 children per woman greater when both partners work from home versus when neither does.\n\nThe mechanism proposed is straightforward: flexibility in when, where and how work happens lowers the practical cost of combining child-rearing with employment, a structural condition distinct from income, price, policy or ideation. Because WFH adoption rates vary enormously across countries, the authors note the implications for aggregate national fertility differ accordingly — the effect is real but its macro impact depends on how much remote work a given labor market actually allows.",
+      "kind": "working paper",
+      "language": "en",
+      "periodFrom": 2019,
+      "periodTo": 2026,
+      "publisher": "National Bureau of Economic Research / EBRD / CESifo",
+      "regions": [
+        "Global",
+        "United States",
+        "High-income countries"
+      ],
+      "sourceFile": "",
+      "title": "Work from Home and Fertility",
+      "url": "https://www.nber.org/papers/w34963",
+      "venue": "NBER Working Paper 34963",
+      "year": 2026,
+      "id": "aksoy-et-al-2026"
     },
     {
       "authors": [
