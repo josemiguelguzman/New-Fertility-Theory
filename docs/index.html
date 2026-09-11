@@ -1,0 +1,1229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fertility Transition Index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600;6..96,700&family=Spectral:ital,wght@0,300;0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>:root{color-scheme:light dark}body{margin:0;font-family:system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<style>
+:root{
+  --ground:#EAECE7;
+  --surface:#F7F8F4;
+  --surface-2:#E2E5DE;
+  --ink:#17201B;
+  --ink-soft:#3C4740;
+  --muted:#68736B;
+  --rule:#CDD2C8;
+  --rule-soft:#DDE1D8;
+  --accent:#1D5C48;
+  --accent-soft:#E0EBE4;
+  --mark:#A6522B;
+  --focus:#1D5C48;
+  --shadow:0 1px 2px rgba(23,32,27,.06),0 8px 24px -16px rgba(23,32,27,.25);
+
+  --c1:#1D5C48; --c2:#7A4A86; --c3:#A6522B; --c4:#2C5578;
+  --c5:#8A6A14; --c6:#7C2F45; --c7:#3F6B24; --c8:#4A4E8C;
+
+  --sans:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --body:"Spectral",Georgia,"Times New Roman",serif;
+  --display:"Bodoni Moda","Bodoni MT",Didot,Georgia,serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#0E1310;
+    --surface:#161D18;
+    --surface-2:#1E2721;
+    --ink:#E5EAE2;
+    --ink-soft:#C3CBC0;
+    --muted:#8D9A8E;
+    --rule:#2B352E;
+    --rule-soft:#222B25;
+    --accent:#6FC0A0;
+    --accent-soft:#182B23;
+    --mark:#D4906A;
+    --focus:#6FC0A0;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px -18px rgba(0,0,0,.8);
+    --c1:#6FC0A0; --c2:#B694C4; --c3:#D4906A; --c4:#7FA9CE;
+    --c5:#C9AC58; --c6:#CE8298; --c7:#96C273; --c8:#9599D6;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0E1310;
+  --surface:#161D18;
+  --surface-2:#1E2721;
+  --ink:#E5EAE2;
+  --ink-soft:#C3CBC0;
+  --muted:#8D9A8E;
+  --rule:#2B352E;
+  --rule-soft:#222B25;
+  --accent:#6FC0A0;
+  --accent-soft:#182B23;
+  --mark:#D4906A;
+  --focus:#6FC0A0;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px -18px rgba(0,0,0,.8);
+  --c1:#6FC0A0; --c2:#B694C4; --c3:#D4906A; --c4:#7FA9CE;
+  --c5:#C9AC58; --c6:#CE8298; --c7:#96C273; --c8:#9599D6;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--ground);color:var(--ink);
+  font-family:var(--body);font-size:16px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+button{font:inherit;color:inherit}
+::selection{background:var(--accent-soft)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:2px}
+
+.masthead{
+  border-bottom:1px solid var(--rule);
+  background:var(--surface);
+  padding-block:18px;
+  padding-left:max(20px,env(safe-area-inset-left));
+  padding-right:max(20px,env(safe-area-inset-right));
+}
+.masthead-in{max-width:1280px;margin:0 auto;display:flex;flex-wrap:wrap;gap:16px 24px;align-items:baseline;justify-content:space-between}
+.wordmark{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.wordmark h1{
+  font-family:var(--display);font-weight:600;font-size:clamp(22px,3.4vw,31px);
+  margin:0;letter-spacing:-.01em;line-height:1.1;
+}
+.wordmark .rule-dot{width:5px;height:5px;background:var(--mark);border-radius:50%;transform:translateY(-4px)}
+.wordmark .sub{font-family:var(--sans);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.masthead-actions{display:flex;gap:8px;flex-wrap:wrap;font-family:var(--sans);font-size:12px}
+
+.btn{
+  border:1px solid var(--rule);background:var(--surface);border-radius:3px;
+  padding:7px 12px;cursor:pointer;font-family:var(--sans);font-size:12px;
+  letter-spacing:.02em;transition:background .15s,border-color .15s;
+}
+.btn:hover{background:var(--surface-2);border-color:var(--muted)}
+.btn-primary{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+:root[data-theme="dark"] .btn-primary,
+:root:not([data-theme="light"]) .btn-primary{color:var(--ground)}
+.btn-primary:hover{background:var(--accent);border-color:var(--accent);filter:brightness(1.08)}
+.btn-quiet{border-color:transparent;background:transparent;color:var(--muted)}
+.btn-quiet:hover{background:var(--surface-2);color:var(--ink)}
+
+.shell{
+  max-width:1280px;margin:0 auto;
+  padding-block:24px 64px;
+  padding-left:max(20px,env(safe-area-inset-left));
+  padding-right:max(20px,env(safe-area-inset-right));
+  display:grid;grid-template-columns:248px minmax(0,1fr);gap:36px;align-items:start;
+}
+@media (max-width:880px){ .shell{grid-template-columns:minmax(0,1fr);gap:24px} }
+
+.rail{position:sticky;top:20px;display:flex;flex-direction:column;gap:20px}
+@media (max-width:880px){ .rail{position:static} }
+
+.search-wrap{position:relative;display:flex;flex-direction:column;gap:8px}
+.search{
+  width:100%;padding:10px 12px;border:1px solid var(--rule);border-radius:3px;
+  background:var(--surface);color:var(--ink);font-family:var(--sans);font-size:13px;
+}
+.search::placeholder{color:var(--muted)}
+
+.viewtabs{display:flex;border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.viewtabs button{
+  flex:1;border:0;background:var(--surface);padding:8px 6px;cursor:pointer;
+  font-family:var(--sans);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+}
+.viewtabs button + button{border-left:1px solid var(--rule)}
+.viewtabs button[aria-pressed="true"]{background:var(--accent-soft);color:var(--ink)}
+
+.facet-group{border-top:1px solid var(--rule-soft);padding-top:12px}
+.facet-head{
+  width:100%;display:flex;justify-content:space-between;align-items:center;gap:8px;
+  background:none;border:0;padding:0 0 8px;cursor:pointer;text-align:left;
+  font-family:var(--sans);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
+}
+.facet-head:hover{color:var(--ink)}
+.facet-head .chev{transition:transform .18s}
+.facet-head[aria-expanded="false"] .chev{transform:rotate(-90deg)}
+.facet-list{display:flex;flex-direction:column;gap:1px;max-height:300px;overflow-y:auto;scrollbar-gutter:stable}
+.facet-list:not(:last-child){padding-bottom:2px}
+.facet{
+  display:flex;align-items:center;gap:8px;width:100%;text-align:left;
+  background:none;border:0;padding:4px 6px;border-radius:3px;cursor:pointer;
+  font-size:13.5px;line-height:1.35;color:var(--ink-soft);
+}
+.facet:hover{background:var(--surface-2);color:var(--ink)}
+.facet[aria-pressed="true"]{background:var(--accent-soft);color:var(--ink);font-weight:600}
+.facet .swatch{width:3px;align-self:stretch;min-height:15px;border-radius:2px;background:var(--rule)}
+.facet .n{margin-left:auto;font-family:var(--sans);font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+
+.activebar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:18px;min-height:26px}
+.chip{
+  display:inline-flex;align-items:center;gap:6px;border:1px solid var(--rule);
+  background:var(--surface);border-radius:20px;padding:3px 10px;
+  font-family:var(--sans);font-size:11px;letter-spacing:.02em;
+}
+.chip button{border:0;background:none;cursor:pointer;color:var(--muted);padding:0;line-height:1}
+.chip button:hover{color:var(--mark)}
+
+.result-head{
+  display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;
+  border-bottom:1px solid var(--rule);padding-bottom:10px;margin-bottom:4px;
+}
+.result-count{font-family:var(--sans);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.sortsel{
+  border:1px solid var(--rule);background:var(--surface);color:var(--ink);
+  font-family:var(--sans);font-size:11.5px;padding:5px 8px;border-radius:3px;
+}
+
+.entries{display:flex;flex-direction:column}
+.entry-row{
+  display:grid;grid-template-columns:64px minmax(0,1fr);gap:18px;
+  padding:18px 4px;border-bottom:1px solid var(--rule-soft);
+  cursor:pointer;background:none;border-left:0;border-right:0;border-top:0;
+  text-align:left;width:100%;font:inherit;color:inherit;
+}
+.entry-row:hover{background:var(--surface)}
+.entry-year{
+  font-family:var(--sans);font-size:13px;font-weight:500;color:var(--muted);
+  font-variant-numeric:tabular-nums;padding-top:3px;
+}
+.entry-title{font-family:var(--display);font-size:19px;font-weight:600;line-height:1.25;margin:0 0 4px;text-wrap:balance}
+.entry-meta{font-size:14px;color:var(--muted);margin:0 0 8px;font-style:italic}
+.entry-gloss{font-size:14.5px;color:var(--ink-soft);margin:0;max-width:62ch}
+.tagrow{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}
+.tag{
+  font-family:var(--sans);font-size:10.5px;letter-spacing:.04em;
+  padding:2px 7px;border-radius:2px;border:1px solid currentColor;opacity:.95;
+}
+.tag.region{border-style:dashed;color:var(--muted)}
+.tag.kind{color:var(--muted);border-color:var(--rule);background:var(--surface-2)}
+
+.record{background:var(--surface);border:1px solid var(--rule);border-radius:4px;box-shadow:var(--shadow);overflow:hidden}
+.record-top{padding:28px 28px 22px;border-bottom:1px solid var(--rule-soft)}
+@media (max-width:560px){.record-top{padding:20px 18px 18px}}
+.record-kicker{font-family:var(--sans);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.record h2{font-family:var(--display);font-size:clamp(23px,3.6vw,32px);font-weight:600;line-height:1.18;margin:0 0 12px;text-wrap:balance}
+.record-cite{font-size:16px;color:var(--ink-soft);margin:0;max-width:70ch}
+.record-cite em{font-style:italic}
+.record-body{padding:24px 28px 28px;display:flex;flex-direction:column;gap:26px}
+@media (max-width:560px){.record-body{padding:20px 18px 22px}}
+.section-label{
+  font-family:var(--sans);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 10px;
+}
+.argument{font-size:17px;line-height:1.68;margin:0;max-width:66ch}
+.argument p{margin:0 0 14px}
+.argument p:last-child{margin:0}
+
+.factgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1px;background:var(--rule-soft);border:1px solid var(--rule-soft);border-radius:3px;overflow:hidden}
+.fact{background:var(--surface);padding:11px 13px}
+.fact dt{font-family:var(--sans);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.fact dd{margin:0;font-size:14.5px;font-variant-numeric:tabular-nums}
+
+.related{display:flex;flex-direction:column;gap:2px}
+.related a{
+  display:flex;gap:12px;align-items:baseline;padding:7px 8px;border-radius:3px;
+  text-decoration:none;font-size:14.5px;cursor:pointer;
+}
+.related a:hover{background:var(--surface-2)}
+.related .ry{font-family:var(--sans);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;min-width:34px}
+.related .rt{color:var(--ink-soft)}
+.related a:hover .rt{color:var(--ink)}
+.related .rw{margin-left:auto;font-family:var(--sans);font-size:10.5px;color:var(--muted);text-align:right}
+
+.flagnote{
+  font-family:var(--sans);font-size:11.5px;color:var(--mark);
+  border-left:2px solid var(--mark);padding:4px 0 4px 10px;
+}
+
+.plane-wrap{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:20px;box-shadow:var(--shadow)}
+@media (max-width:560px){.plane-wrap{padding:14px}}
+.plane-scroll{overflow-x:auto}
+.plane-legend{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:14px;padding-top:14px;border-top:1px solid var(--rule-soft);font-family:var(--sans);font-size:11px;color:var(--muted)}
+.plane-legend span{display:inline-flex;align-items:center;gap:6px}
+.lex-bar{cursor:pointer}
+.lex-bar:hover rect{opacity:1}
+.lex-label{font-family:var(--sans);font-size:10px;fill:var(--ink-soft)}
+.lex-axis{font-family:var(--sans);font-size:10px;fill:var(--muted)}
+
+.empty{padding:48px 20px;text-align:center;color:var(--muted);font-size:15px}
+.empty strong{display:block;font-family:var(--display);font-size:20px;color:var(--ink);margin-bottom:8px;font-weight:600}
+
+.modal-back{position:fixed;inset:0;background:rgba(10,14,11,.55);display:flex;align-items:flex-start;justify-content:center;padding:24px 16px;overflow-y:auto;z-index:50}
+.modal{background:var(--surface);border:1px solid var(--rule);border-radius:5px;max-width:720px;width:100%;box-shadow:0 24px 60px -20px rgba(0,0,0,.5)}
+.modal-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 20px;border-bottom:1px solid var(--rule-soft)}
+.modal-head h3{margin:0;font-family:var(--display);font-size:20px;font-weight:600}
+.form-grid{padding:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+.field{display:flex;flex-direction:column;gap:5px}
+.field.wide{grid-column:1/-1}
+.field label{font-family:var(--sans);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.field input,.field textarea,.field select{
+  border:1px solid var(--rule);background:var(--ground);color:var(--ink);
+  border-radius:3px;padding:8px 10px;font-family:var(--body);font-size:14.5px;width:100%;
+}
+.field textarea{min-height:120px;resize:vertical;line-height:1.55}
+.field .hint{font-family:var(--sans);font-size:10.5px;color:var(--muted)}
+.modal-foot{display:flex;justify-content:space-between;gap:10px;padding:14px 20px;border-top:1px solid var(--rule-soft);flex-wrap:wrap}
+
+.status{font-family:var(--sans);font-size:11px;color:var(--muted)}
+.status[data-tone="warn"]{color:var(--mark)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-in">
+    <div class="wordmark">
+      <h1>Fertility Transition Index</h1>
+      <span class="rule-dot"></span>
+      <span class="sub" id="corpusCount">Loading corpus</span>
+    </div>
+    <div class="masthead-actions">
+      <button class="btn" id="addBtn" type="button">+ Add entry</button>
+      <button class="btn" id="exportBtn" type="button">Export BibTeX</button>
+      <button class="btn" id="saveBtn" type="button">Download data.json</button>
+      <button class="btn btn-quiet" id="themeBtn" type="button" title="Toggle theme">Theme</button>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <aside class="rail">
+    <div class="search-wrap">
+      <input class="search" id="q" type="search" placeholder="Search title, author, argument…" autocomplete="off" aria-label="Search the corpus">
+      <div class="viewtabs" role="group" aria-label="View">
+        <button type="button" id="viewList" aria-pressed="true">Corpus</button>
+        <button type="button" id="viewPlane" aria-pressed="false">Time plane</button>
+      </div>
+    </div>
+    <nav id="facets" aria-label="Filters"></nav>
+    <div class="status" id="status"></div>
+  </aside>
+
+  <main id="main">
+    <div class="empty"><strong>Opening the index…</strong>Reading the catalogue.</div>
+  </main>
+</div>
+
+<div id="modalRoot"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  var CAMP_COLORS = ["--c1","--c2","--c3","--c4","--c5","--c6","--c7","--c8"];
+  var state = {
+    entries: [],
+    ready: false,
+    dbAvailable: null,
+    q: "",
+    filters: {camp:null, author:null, region:null, decade:null, era:null},
+    sort: "year-desc",
+    view: "list",
+    current: null,
+    open: {camp:true, author:false, region:true, decade:false, era:false}
+  };
+  var db = null;
+
+  var $ = function(s){ return document.querySelector(s); };
+  var el = function(t, cls, txt){
+    var n = document.createElement(t);
+    if(cls) n.className = cls;
+    if(txt != null) n.textContent = txt;
+    return n;
+  };
+  function esc(s){ return String(s == null ? "" : s); }
+  function arr(v){ return Array.isArray(v) ? v.filter(Boolean) : (v ? String(v).split(",").map(function(x){return x.trim();}).filter(Boolean) : []); }
+
+  function campColor(camp){
+    var list = allValues("camps");
+    var i = list.indexOf(camp);
+    return "var(" + CAMP_COLORS[(i < 0 ? 0 : i) % CAMP_COLORS.length] + ")";
+  }
+
+  function authorList(e){ return arr(e.authors); }
+  function firstAuthorSurname(e){
+    var a = authorList(e)[0] || "";
+    var parts = a.split(" ");
+    return parts[parts.length - 1] || a;
+  }
+
+  function citation(e){
+    var bits = [];
+    var au = authorList(e);
+    if(au.length) bits.push(au.join(", "));
+    if(e.year) bits.push("(" + e.year + ")");
+    var s = bits.join(" ");
+    if(s) s += ". ";
+    s += esc(e.title) + ". ";
+    var tail = [];
+    if(e.venue) tail.push(e.venue);
+    if(e.volume) tail.push(e.volume + (e.issue ? "(" + e.issue + ")" : ""));
+    if(e.pages) tail.push("pp. " + e.pages);
+    if(e.publisher) tail.push(e.publisher);
+    return {lead: s, tail: tail.join(", ")};
+  }
+
+  function eraLabel(e){
+    if(e.periodFrom == null && e.periodTo == null) return null;
+    var from = e.periodDeep ? "deep time" : e.periodFrom;
+    return from + "–" + e.periodTo;
+  }
+
+  function decadeOf(e){
+    if(!e.year) return null;
+    return (Math.floor(Number(e.year) / 10) * 10) + "s";
+  }
+
+  function eraBucket(e){
+    if(e.periodDeep) return "Pre-1800 & deep time";
+    var f = Number(e.periodFrom);
+    if(!f) return null;
+    if(f < 1800) return "Pre-1800 & deep time";
+    if(f < 1900) return "19th century onward";
+    if(f < 1960) return "Early 20th century onward";
+    if(f < 2000) return "Late 20th century onward";
+    return "21st century";
+  }
+
+  function allValues(field){
+    var seen = {};
+    var out = [];
+    state.entries.forEach(function(e){
+      var vals;
+      if(field === "authors") vals = authorList(e);
+      else if(field === "decade") vals = [decadeOf(e)];
+      else if(field === "era") vals = [eraBucket(e)];
+      else vals = arr(e[field]);
+      vals.forEach(function(v){
+        if(v && !seen[v]){ seen[v] = 1; out.push(v); }
+      });
+    });
+    out.sort(function(a,b){
+      if(field === "decade") return parseInt(a,10) - parseInt(b,10);
+      return a.localeCompare(b);
+    });
+    return out;
+  }
+
+  function countFor(field, value){
+    return state.entries.filter(function(e){
+      if(field === "authors") return authorList(e).indexOf(value) > -1;
+      if(field === "decade") return decadeOf(e) === value;
+      if(field === "era") return eraBucket(e) === value;
+      return arr(e[field]).indexOf(value) > -1;
+    }).length;
+  }
+
+  function matches(e){
+    var f = state.filters;
+    if(f.camp && arr(e.camps).indexOf(f.camp) < 0) return false;
+    if(f.author && authorList(e).indexOf(f.author) < 0) return false;
+    if(f.region && arr(e.regions).indexOf(f.region) < 0) return false;
+    if(f.decade && decadeOf(e) !== f.decade) return false;
+    if(f.era && eraBucket(e) !== f.era) return false;
+    if(state.q){
+      var hay = [e.title, authorList(e).join(" "), e.venue, e.keyArgument, arr(e.camps).join(" "), arr(e.regions).join(" "), e.publisher, e.year].join(" ").toLowerCase();
+      var terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+      for(var i = 0; i < terms.length; i++){ if(hay.indexOf(terms[i]) < 0) return false; }
+    }
+    return true;
+  }
+
+  function visible(){
+    var list = state.entries.filter(matches);
+    list.sort(function(a,b){
+      if(state.sort === "year-asc") return (a.year||0) - (b.year||0) || a.title.localeCompare(b.title);
+      if(state.sort === "author") return firstAuthorSurname(a).localeCompare(firstAuthorSurname(b)) || (a.year||0) - (b.year||0);
+      if(state.sort === "title") return String(a.title).localeCompare(String(b.title));
+      return (b.year||0) - (a.year||0) || a.title.localeCompare(b.title);
+    });
+    return list;
+  }
+
+  /* ---------- facets ---------- */
+  function facetGroup(key, label, field){
+    var wrap = el("div", "facet-group");
+    var head = el("button", "facet-head");
+    head.type = "button";
+    head.setAttribute("aria-expanded", state.open[key] ? "true" : "false");
+    head.appendChild(el("span", null, label));
+    var chev = el("span", "chev", "▾");
+    head.appendChild(chev);
+    head.addEventListener("click", function(){
+      state.open[key] = !state.open[key];
+      renderFacets();
+    });
+    wrap.appendChild(head);
+    if(!state.open[key]) return wrap;
+
+    var list = el("div", "facet-list");
+    allValues(field).forEach(function(v){
+      var b = el("button", "facet");
+      b.type = "button";
+      b.setAttribute("aria-pressed", state.filters[key] === v ? "true" : "false");
+      var sw = el("span", "swatch");
+      if(key === "camp") sw.style.background = campColor(v);
+      b.appendChild(sw);
+      b.appendChild(el("span", null, v));
+      b.appendChild(el("span", "n", String(countFor(field, v))));
+      b.addEventListener("click", function(){
+        state.filters[key] = (state.filters[key] === v) ? null : v;
+        state.current = null;
+        render();
+      });
+      list.appendChild(b);
+    });
+    wrap.appendChild(list);
+    return wrap;
+  }
+
+  function renderFacets(){
+    var host = $("#facets");
+    host.innerHTML = "";
+    if(!state.entries.length) return;
+    host.appendChild(facetGroup("camp", "School of thought", "camps"));
+    host.appendChild(facetGroup("region", "Region covered", "regions"));
+    host.appendChild(facetGroup("era", "Period covered", "era"));
+    host.appendChild(facetGroup("decade", "Published", "decade"));
+    host.appendChild(facetGroup("author", "Author", "authors"));
+  }
+
+  /* ---------- list view ---------- */
+  function tagEl(text, color, cls){
+    var t = el("span", "tag" + (cls ? " " + cls : ""), text);
+    if(color) t.style.color = color;
+    return t;
+  }
+
+  function renderList(){
+    var main = $("#main");
+    main.innerHTML = "";
+
+    var bar = el("div", "activebar");
+    var any = false;
+    Object.keys(state.filters).forEach(function(k){
+      var v = state.filters[k];
+      if(!v) return;
+      any = true;
+      var chip = el("span", "chip");
+      chip.appendChild(el("span", null, v));
+      var x = el("button", null, "×");
+      x.type = "button";
+      x.setAttribute("aria-label", "Remove filter " + v);
+      x.addEventListener("click", function(){ state.filters[k] = null; render(); });
+      chip.appendChild(x);
+      bar.appendChild(chip);
+    });
+    if(state.q){
+      any = true;
+      var qc = el("span", "chip");
+      qc.appendChild(el("span", null, "“" + state.q + "”"));
+      var qx = el("button", null, "×");
+      qx.type = "button";
+      qx.addEventListener("click", function(){ state.q = ""; $("#q").value = ""; render(); });
+      qc.appendChild(qx);
+      bar.appendChild(qc);
+    }
+    if(any){
+      var clr = el("button", "btn btn-quiet", "Clear all");
+      clr.type = "button";
+      clr.addEventListener("click", function(){
+        state.filters = {camp:null, author:null, region:null, decade:null, era:null};
+        state.q = ""; $("#q").value = "";
+        render();
+      });
+      bar.appendChild(clr);
+    }
+    main.appendChild(bar);
+
+    var list = visible();
+
+    var head = el("div", "result-head");
+    head.appendChild(el("span", "result-count", list.length + (list.length === 1 ? " work" : " works")));
+    var sel = el("select", "sortsel");
+    sel.setAttribute("aria-label", "Sort");
+    [["year-desc","Newest first"],["year-asc","Oldest first"],["author","Author A–Z"],["title","Title A–Z"]].forEach(function(o){
+      var op = el("option", null, o[1]);
+      op.value = o[0];
+      if(state.sort === o[0]) op.selected = true;
+      sel.appendChild(op);
+    });
+    sel.addEventListener("change", function(){ state.sort = sel.value; render(); });
+    head.appendChild(sel);
+    main.appendChild(head);
+
+    if(!list.length){
+      var e0 = el("div", "empty");
+      e0.appendChild(el("strong", null, "Nothing matches"));
+      e0.appendChild(document.createTextNode("Loosen a filter or clear the search."));
+      main.appendChild(e0);
+      return;
+    }
+
+    var box = el("div", "entries");
+    list.forEach(function(e){
+      var row = el("button", "entry-row");
+      row.type = "button";
+      row.appendChild(el("div", "entry-year", String(e.year || "n.d.")));
+      var body = el("div");
+      body.appendChild(el("h3", "entry-title", e.title));
+      var c = citation(e);
+      body.appendChild(el("p", "entry-meta", authorList(e).join("; ") + (e.venue ? " · " + e.venue : "")));
+      if(e.keyArgument){
+        var gloss = String(e.keyArgument).split(/(?<=\.)\s+/)[0];
+        body.appendChild(el("p", "entry-gloss", gloss));
+      }
+      var tags = el("div", "tagrow");
+      arr(e.camps).forEach(function(cm){ tags.appendChild(tagEl(cm, campColor(cm))); });
+      arr(e.regions).slice(0, 3).forEach(function(r){ tags.appendChild(tagEl(r, null, "region")); });
+      if(eraLabel(e)) tags.appendChild(tagEl("covers " + eraLabel(e), null, "kind"));
+      body.appendChild(tags);
+      row.appendChild(body);
+      row.addEventListener("click", function(){ state.current = e.id; render(); window.scrollTo({top:0, behavior:"smooth"}); });
+      box.appendChild(row);
+    });
+    main.appendChild(box);
+  }
+
+  /* ---------- record view ---------- */
+  function relatedTo(e){
+    var out = [];
+    state.entries.forEach(function(o){
+      if(o.id === e.id) return;
+      var shared = arr(o.camps).filter(function(c){ return arr(e.camps).indexOf(c) > -1; });
+      var sharedR = arr(o.regions).filter(function(r){ return arr(e.regions).indexOf(r) > -1; });
+      var score = shared.length * 2 + sharedR.length;
+      if(score > 0) out.push({e:o, score:score, why: shared.concat(sharedR).slice(0,2).join(" · ")});
+    });
+    out.sort(function(a,b){ return b.score - a.score || (b.e.year||0) - (a.e.year||0); });
+    return out.slice(0, 6);
+  }
+
+  function renderRecord(e){
+    var main = $("#main");
+    main.innerHTML = "";
+
+    var back = el("button", "btn btn-quiet", "← Back to corpus");
+    back.type = "button";
+    back.style.marginBottom = "16px";
+    back.addEventListener("click", function(){ state.current = null; render(); });
+    main.appendChild(back);
+
+    var rec = el("article", "record");
+    var top = el("div", "record-top");
+    top.appendChild(el("div", "record-kicker", (e.kind || "work") + " · " + (e.year || "n.d.") + (e.language && e.language !== "en" ? " · " + e.language.toUpperCase() : "")));
+    top.appendChild(el("h2", null, e.title));
+    var c = citation(e);
+    var p = el("p", "record-cite");
+    p.appendChild(document.createTextNode(c.lead));
+    if(c.tail){
+      var em = el("em", null, c.tail);
+      p.appendChild(em);
+      p.appendChild(document.createTextNode("."));
+    }
+    top.appendChild(p);
+    var tags = el("div", "tagrow");
+    arr(e.camps).forEach(function(cm){
+      var t = tagEl(cm, campColor(cm));
+      t.style.cursor = "pointer";
+      t.addEventListener("click", function(){ state.filters.camp = cm; state.current = null; render(); });
+      tags.appendChild(t);
+    });
+    arr(e.regions).forEach(function(r){
+      var t = tagEl(r, null, "region");
+      t.style.cursor = "pointer";
+      t.addEventListener("click", function(){ state.filters.region = r; state.current = null; render(); });
+      tags.appendChild(t);
+    });
+    top.appendChild(tags);
+    rec.appendChild(top);
+
+    var body = el("div", "record-body");
+
+    if(e.keyArgument){
+      var s1 = el("section");
+      s1.appendChild(el("p", "section-label", "Key argument"));
+      var argWrap = el("div", "argument");
+      String(e.keyArgument).split(/\n\n+/).forEach(function(par){
+        argWrap.appendChild(el("p", null, par));
+      });
+      s1.appendChild(argWrap);
+      body.appendChild(s1);
+    }
+
+    var s2 = el("section");
+    s2.appendChild(el("p", "section-label", "Record"));
+    var dl = el("dl", "factgrid");
+    function fact(k, v){
+      if(!v) return;
+      var f = el("div", "fact");
+      f.appendChild(el("dt", null, k));
+      f.appendChild(el("dd", null, v));
+      dl.appendChild(f);
+    }
+    fact("Published", e.year);
+    fact("Period covered", eraLabel(e));
+    fact("Type", e.kind);
+    fact("Venue", e.venue);
+    if(e.volume) fact("Volume / issue", e.volume + (e.issue ? " (" + e.issue + ")" : ""));
+    fact("Pages", e.pages);
+    fact("Publisher", e.publisher);
+    fact("Language", e.language === "es" ? "Spanish" : e.language === "en" ? "English" : e.language);
+    fact("Cite key", e.citeKey);
+    fact("Source file", e.sourceFile);
+    s2.appendChild(dl);
+    if(e.doi || e.url){
+      var lk = el("p");
+      lk.style.marginTop = "10px";
+      lk.style.fontSize = "14px";
+      var a = el("a", null, e.doi ? e.doi : e.url);
+      a.href = e.url || ("https://doi.org/" + e.doi);
+      a.target = "_blank";
+      a.rel = "noopener";
+      lk.appendChild(a);
+      s2.appendChild(lk);
+    }
+    if(e.citationVerified === false){
+      s2.appendChild(el("p", "flagnote", e.citationNote || "Volume and page details reconstructed from the literature, not printed on the source PDF. Worth confirming before you cite it."));
+    }
+    body.appendChild(s2);
+
+    var rel = relatedTo(e);
+    if(rel.length){
+      var s3 = el("section");
+      s3.appendChild(el("p", "section-label", "Connected in this index"));
+      var relBox = el("div", "related");
+      rel.forEach(function(r){
+        var a = el("a");
+        a.setAttribute("role", "button");
+        a.tabIndex = 0;
+        a.appendChild(el("span", "ry", String(r.e.year || "")));
+        a.appendChild(el("span", "rt", firstAuthorSurname(r.e) + ", " + r.e.title));
+        a.appendChild(el("span", "rw", r.why));
+        function go(){ state.current = r.e.id; render(); window.scrollTo({top:0, behavior:"smooth"}); }
+        a.addEventListener("click", go);
+        a.addEventListener("keydown", function(ev){ if(ev.key === "Enter" || ev.key === " "){ ev.preventDefault(); go(); } });
+        relBox.appendChild(a);
+      });
+      s3.appendChild(relBox);
+      body.appendChild(s3);
+    }
+
+    var actions = el("div");
+    actions.style.display = "flex";
+    actions.style.gap = "8px";
+    actions.style.flexWrap = "wrap";
+    var ed = el("button", "btn", "Edit entry");
+    ed.type = "button";
+    ed.addEventListener("click", function(){ openForm(e); });
+    actions.appendChild(ed);
+    var del = el("button", "btn btn-quiet", "Delete");
+    del.type = "button";
+    del.addEventListener("click", function(){
+      if(!db) return;
+      if(!window.confirm("Remove “" + e.title + "” from the index?")) return;
+      db.collection("entries").doc(e.id).delete().then(function(){
+        state.current = null;
+        setStatus("Entry removed.");
+      }).catch(function(err){ setStatus("Could not delete: " + err.code, "warn"); });
+    });
+    actions.appendChild(del);
+    body.appendChild(actions);
+
+    rec.appendChild(body);
+    main.appendChild(rec);
+  }
+
+  /* ---------- time plane ---------- */
+  function renderPlane(){
+    var main = $("#main");
+    main.innerHTML = "";
+
+    var intro = el("div");
+    intro.style.marginBottom = "16px";
+    var h = el("p", "section-label", "Time plane");
+    intro.appendChild(h);
+    var pt = el("p");
+    pt.style.margin = "0";
+    pt.style.maxWidth = "62ch";
+    pt.style.fontSize = "15px";
+    pt.style.color = "var(--ink-soft)";
+    pt.textContent = "Each bar spans the period a work studies; its position down the page is the year it was published. The gap between a bar and the diagonal is how far back the author was looking.";
+    intro.appendChild(pt);
+    main.appendChild(intro);
+
+    var list = visible().slice().sort(function(a,b){ return (a.year||0) - (b.year||0); });
+    if(!list.length){
+      var e0 = el("div", "empty");
+      e0.appendChild(el("strong", null, "Nothing to plot"));
+      e0.appendChild(document.createTextNode("Loosen a filter or clear the search."));
+      main.appendChild(e0);
+      return;
+    }
+
+    var wrap = el("div", "plane-wrap");
+    var scroll = el("div", "plane-scroll");
+
+    var X0 = 1780, X1 = 2035;
+    var padL = 92, padR = 18, padT = 22, padB = 34;
+    var rowH = 21;
+    var plotW = 660;
+    var W = padL + plotW + padR;
+    var H = padT + list.length * rowH + padB;
+
+    var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+    svg.setAttribute("width", "100%");
+    svg.setAttribute("style", "min-width:700px;max-width:100%;height:auto;display:block");
+    svg.setAttribute("role", "img");
+    svg.setAttribute("aria-label", "Works plotted by publication year and period covered");
+
+    function sx(year){
+      var y = Math.max(X0, Math.min(X1, year));
+      return padL + ((y - X0) / (X1 - X0)) * plotW;
+    }
+
+    function mk(tag, attrs){
+      var n = document.createElementNS("http://www.w3.org/2000/svg", tag);
+      Object.keys(attrs).forEach(function(k){ n.setAttribute(k, attrs[k]); });
+      return n;
+    }
+
+    for(var t = 1800; t <= 2000; t += 50){
+      svg.appendChild(mk("line", {x1:sx(t), y1:padT - 6, x2:sx(t), y2:H - padB + 2, stroke:"var(--rule-soft)", "stroke-width":1}));
+      var tl = mk("text", {x:sx(t), y:H - padB + 16, "text-anchor":"middle", class:"lex-axis"});
+      tl.textContent = t;
+      svg.appendChild(tl);
+    }
+    var t2 = mk("text", {x:sx(2035), y:H - padB + 16, "text-anchor":"end", class:"lex-axis"});
+    t2.textContent = "2035";
+    svg.appendChild(t2);
+
+    var diag = [];
+    list.forEach(function(e, i){
+      if(e.year) diag.push([sx(e.year), padT + i * rowH + rowH / 2]);
+    });
+    if(diag.length > 1){
+      svg.appendChild(mk("polyline", {
+        points: diag.map(function(p){ return p[0] + "," + p[1]; }).join(" "),
+        fill:"none", stroke:"var(--mark)", "stroke-width":1, "stroke-dasharray":"3 3", opacity:".55"
+      }));
+    }
+
+    list.forEach(function(e, i){
+      var y = padT + i * rowH;
+      var cy = y + rowH / 2;
+      var from = e.periodDeep ? X0 : Number(e.periodFrom || e.year);
+      var to = Number(e.periodTo || e.year);
+      var x1 = sx(from), x2 = sx(to);
+      if(x2 - x1 < 3) x2 = x1 + 3;
+      var col = campColor(arr(e.camps)[0] || "");
+
+      var g = mk("g", {class:"lex-bar", tabindex:"0", role:"button"});
+      var title = mk("title", {});
+      title.textContent = firstAuthorSurname(e) + " " + (e.year||"") + " — covers " + (eraLabel(e) || "n/a");
+      g.appendChild(title);
+      g.appendChild(mk("rect", {x:x1, y:cy - 4, width:(x2 - x1), height:8, rx:2, fill:col, opacity:".62"}));
+      if(e.periodDeep){
+        var ar = mk("polygon", {points:(x1) + "," + (cy - 5) + " " + (x1 - 7) + "," + cy + " " + (x1) + "," + (cy + 5), fill:col, opacity:".62"});
+        g.appendChild(ar);
+      }
+      if(e.year){
+        g.appendChild(mk("circle", {cx:sx(e.year), cy:cy, r:3.4, fill:col, stroke:"var(--surface)", "stroke-width":1.2}));
+      }
+      var lbl = mk("text", {x:padL - 8, y:cy + 3.5, "text-anchor":"end", class:"lex-label"});
+      lbl.textContent = firstAuthorSurname(e).slice(0, 11) + " " + String(e.year || "").slice(2);
+      g.appendChild(lbl);
+      function go(){ state.current = e.id; render(); window.scrollTo({top:0, behavior:"smooth"}); }
+      g.addEventListener("click", go);
+      g.addEventListener("keydown", function(ev){ if(ev.key === "Enter"){ go(); } });
+      svg.appendChild(g);
+    });
+
+    scroll.appendChild(svg);
+    wrap.appendChild(scroll);
+
+    var leg = el("div", "plane-legend");
+    var l1 = el("span");
+    var sw1 = el("span");
+    sw1.style.cssText = "width:22px;height:7px;border-radius:2px;background:var(--c1);opacity:.62";
+    l1.appendChild(sw1);
+    l1.appendChild(document.createTextNode("period the work covers"));
+    leg.appendChild(l1);
+    var l2 = el("span");
+    var sw2 = el("span");
+    sw2.style.cssText = "width:9px;height:9px;border-radius:50%;background:var(--c1)";
+    l2.appendChild(sw2);
+    l2.appendChild(document.createTextNode("year of publication"));
+    leg.appendChild(l2);
+    var l3 = el("span");
+    var sw3 = el("span");
+    sw3.style.cssText = "width:22px;border-top:1px dashed var(--mark);height:1px";
+    l3.appendChild(sw3);
+    l3.appendChild(document.createTextNode("the publication diagonal"));
+    leg.appendChild(l3);
+    var l4 = el("span", null, "◀ open edge: the work reaches before 1780");
+    leg.appendChild(l4);
+    wrap.appendChild(leg);
+
+    main.appendChild(wrap);
+  }
+
+  /* ---------- form ---------- */
+  function openForm(entry){
+    var isNew = !entry;
+    var e = entry || {kind:"article", language:"en", citationVerified:true};
+    var root = $("#modalRoot");
+    root.innerHTML = "";
+    var back = el("div", "modal-back");
+    var modal = el("div", "modal");
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+
+    var head = el("div", "modal-head");
+    head.appendChild(el("h3", null, isNew ? "Add a work" : "Edit record"));
+    var close = el("button", "btn btn-quiet", "Close");
+    close.type = "button";
+    close.addEventListener("click", function(){ root.innerHTML = ""; });
+    head.appendChild(close);
+    modal.appendChild(head);
+
+    var form = el("form", "form-grid");
+    var fields = [
+      ["title", "Title", "text", true, null],
+      ["authors", "Authors", "text", true, "Separate with commas, in citation order"],
+      ["year", "Year", "number", true, null],
+      ["kind", "Type", "select", false, null],
+      ["venue", "Journal / series / book", "text", false, null],
+      ["volume", "Volume", "text", false, null],
+      ["issue", "Issue", "text", false, null],
+      ["pages", "Pages", "text", false, null],
+      ["publisher", "Publisher", "text", false, null],
+      ["doi", "DOI", "text", false, null],
+      ["url", "URL", "text", false, null],
+      ["citeKey", "Cite key", "text", false, "e.g. davis-1963"],
+      ["camps", "Schools of thought", "text", false, "Comma-separated; reuse existing names to keep the facets tidy"],
+      ["regions", "Regions covered", "text", false, "Comma-separated"],
+      ["periodFrom", "Period covered, from", "number", false, null],
+      ["periodTo", "Period covered, to", "number", false, null],
+      ["keyArgument", "Key argument", "textarea", false, "Two to four sentences. Blank lines start a new paragraph."]
+    ];
+    var inputs = {};
+    fields.forEach(function(f){
+      var wrap = el("div", "field" + (f[2] === "textarea" || f[0] === "title" || f[0] === "camps" || f[0] === "regions" || f[0] === "authors" ? " wide" : ""));
+      var id = "f_" + f[0];
+      var lab = el("label", null, f[1]);
+      lab.htmlFor = id;
+      wrap.appendChild(lab);
+      var input;
+      if(f[2] === "textarea"){
+        input = el("textarea");
+      } else if(f[2] === "select"){
+        input = el("select");
+        ["article","book","chapter","report","working paper"].forEach(function(k){
+          var o = el("option", null, k);
+          o.value = k;
+          if(e.kind === k) o.selected = true;
+          input.appendChild(o);
+        });
+      } else {
+        input = el("input");
+        input.type = f[2];
+      }
+      input.id = id;
+      if(f[3]) input.required = true;
+      if(f[2] !== "select"){
+        var v = e[f[0]];
+        input.value = Array.isArray(v) ? v.join(", ") : (v == null ? "" : v);
+      }
+      inputs[f[0]] = input;
+      wrap.appendChild(input);
+      if(f[4]) wrap.appendChild(el("span", "hint", f[4]));
+      form.appendChild(wrap);
+    });
+    modal.appendChild(form);
+
+    var foot = el("div", "modal-foot");
+    var note = el("span", "status", db ? "" : "No database connection — changes cannot be saved.");
+    foot.appendChild(note);
+    var save = el("button", "btn btn-primary", isNew ? "Add to index" : "Save changes");
+    save.type = "button";
+    save.addEventListener("click", function(){
+      if(!db){ note.textContent = "No database connection — changes cannot be saved."; note.dataset.tone = "warn"; return; }
+      if(!inputs.title.value.trim() || !inputs.year.value){
+        note.textContent = "A title and a year are required.";
+        note.dataset.tone = "warn";
+        return;
+      }
+      var doc = {
+        title: inputs.title.value.trim(),
+        authors: arr(inputs.authors.value),
+        year: Number(inputs.year.value),
+        kind: inputs.kind.value,
+        venue: inputs.venue.value.trim(),
+        volume: inputs.volume.value.trim(),
+        issue: inputs.issue.value.trim(),
+        pages: inputs.pages.value.trim(),
+        publisher: inputs.publisher.value.trim(),
+        doi: inputs.doi.value.trim(),
+        url: inputs.url.value.trim(),
+        citeKey: inputs.citeKey.value.trim(),
+        camps: arr(inputs.camps.value),
+        regions: arr(inputs.regions.value),
+        keyArgument: inputs.keyArgument.value.trim(),
+        language: e.language || "en",
+        citationVerified: e.citationVerified === false ? false : true,
+        sourceFile: e.sourceFile || ""
+      };
+      if(inputs.periodFrom.value) doc.periodFrom = Number(inputs.periodFrom.value);
+      if(inputs.periodTo.value) doc.periodTo = Number(inputs.periodTo.value);
+      if(e.periodDeep) doc.periodDeep = true;
+
+      var id = isNew
+        ? (doc.citeKey || (firstAuthorSurname(doc).toLowerCase().replace(/[^a-z0-9]/g, "") + "-" + doc.year)).replace(/[^A-Za-z0-9_\-.~:@+]/g, "-")
+        : e.id;
+      save.disabled = true;
+      note.textContent = "Saving…";
+      delete note.dataset.tone;
+      db.collection("entries").doc(id).set(doc).then(function(){
+        root.innerHTML = "";
+        state.current = id;
+        setStatus(isNew ? "Added to the index." : "Record updated.");
+      }).catch(function(err){
+        save.disabled = false;
+        note.textContent = "Could not save (" + (err && err.code ? err.code : "error") + ").";
+        note.dataset.tone = "warn";
+      });
+    });
+    foot.appendChild(save);
+    modal.appendChild(foot);
+
+    back.appendChild(modal);
+    back.addEventListener("click", function(ev){ if(ev.target === back) root.innerHTML = ""; });
+    root.appendChild(back);
+    inputs.title.focus();
+  }
+
+  /* ---------- export ---------- */
+  function bibtex(){
+    return state.entries.slice().sort(function(a,b){ return (a.year||0) - (b.year||0); }).map(function(e){
+      var type = e.kind === "book" ? "book" : e.kind === "chapter" ? "incollection" : e.kind === "report" ? "techreport" : e.kind === "working paper" ? "techreport" : "article";
+      var key = e.citeKey || e.id;
+      var L = ["@" + type + "{" + key + ","];
+      L.push("  author = {" + authorList(e).join(" and ") + "},");
+      L.push("  title = {" + e.title + "},");
+      L.push("  year = {" + (e.year || "") + "},");
+      if(e.venue) L.push("  " + (type === "article" ? "journal" : "booktitle") + " = {" + e.venue + "},");
+      if(e.volume) L.push("  volume = {" + e.volume + "},");
+      if(e.issue) L.push("  number = {" + e.issue + "},");
+      if(e.pages) L.push("  pages = {" + e.pages + "},");
+      if(e.publisher) L.push("  publisher = {" + e.publisher + "},");
+      if(e.doi) L.push("  doi = {" + e.doi + "},");
+      if(e.url) L.push("  url = {" + e.url + "},");
+      if(e.keyArgument) L.push("  annote = {" + String(e.keyArgument).replace(/\n+/g, " ") + "},");
+      L.push("}");
+      return L.join("\n");
+    }).join("\n\n");
+  }
+
+  function doExport(){
+    saveBlob("fertility-transition-index.bib", bibtex(), "application/x-bibtex");
+    setStatus("BibTeX exported.");
+  }
+
+  function saveBlob(filename, text, type){
+    try{
+      var blob = new Blob([text], {type:(type||"application/json") + ";charset=utf-8"});
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement("a");
+      a.href = url; a.download = filename;
+      document.body.appendChild(a); a.click();
+      document.body.removeChild(a);
+      setTimeout(function(){ URL.revokeObjectURL(url); }, 1500);
+    }catch(err){ fallbackCopy(text); }
+  }
+
+  function exportData(){
+    var payload = {
+      name: "Fertility Transition Index",
+      updated: new Date().toISOString().slice(0,10),
+      count: state.entries.length,
+      entries: state.entries.slice().sort(function(a,b){ return (a.year||0)-(b.year||0) || String(a.title).localeCompare(String(b.title)); })
+    };
+    saveBlob("data.json", JSON.stringify(payload, null, 2), "application/json");
+    setStatus("data.json downloaded. Commit it to the repo to make these edits permanent.");
+  }
+
+  function fallbackCopy(text){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ setStatus("BibTeX copied to the clipboard."); },
+        function(){ setStatus("Export unavailable in this view.", "warn"); });
+    } else {
+      setStatus("Export unavailable in this view.", "warn");
+    }
+  }
+
+  /* ---------- shell ---------- */
+  var statusTimer = null;
+  function setStatus(msg, tone){
+    var s = $("#status");
+    s.textContent = msg;
+    if(tone) s.dataset.tone = tone; else delete s.dataset.tone;
+    if(statusTimer) clearTimeout(statusTimer);
+    if(msg && !tone) statusTimer = setTimeout(function(){ if($("#status").textContent === msg) $("#status").textContent = ""; }, 4000);
+  }
+
+  function render(){
+    $("#corpusCount").textContent = state.entries.length
+      ? state.entries.length + " works catalogued"
+      : (state.ready ? "Empty index" : "Loading corpus");
+    renderFacets();
+    if(!state.ready){ return; }
+    if(!state.entries.length){
+      var main = $("#main");
+      main.innerHTML = "";
+      var e0 = el("div", "empty");
+      e0.appendChild(el("strong", null, state.dbAvailable === false ? "The catalogue could not load" : "No works yet"));
+      e0.appendChild(document.createTextNode(state.dbAvailable === false
+        ? "data.json could not be loaded. This page must be served over http, which GitHub Pages does, rather than opened as a local file."
+        : "Add the first work with the button in the header."));
+      main.appendChild(e0);
+      return;
+    }
+    var cur = state.current ? state.entries.filter(function(x){ return x.id === state.current; })[0] : null;
+    if(cur) renderRecord(cur);
+    else if(state.view === "plane") renderPlane();
+    else renderList();
+  }
+
+  $("#q").addEventListener("input", function(ev){
+    state.q = ev.target.value.trim();
+    state.current = null;
+    render();
+  });
+  $("#viewList").addEventListener("click", function(){
+    state.view = "list"; state.current = null;
+    $("#viewList").setAttribute("aria-pressed", "true");
+    $("#viewPlane").setAttribute("aria-pressed", "false");
+    render();
+  });
+  $("#viewPlane").addEventListener("click", function(){
+    state.view = "plane"; state.current = null;
+    $("#viewPlane").setAttribute("aria-pressed", "true");
+    $("#viewList").setAttribute("aria-pressed", "false");
+    render();
+  });
+  $("#addBtn").addEventListener("click", function(){ openForm(null); });
+  $("#exportBtn").addEventListener("click", doExport);
+  $("#saveBtn").addEventListener("click", exportData);
+  $("#themeBtn").addEventListener("click", function(){
+    var r = document.documentElement;
+    var cur = r.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark" : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    r.setAttribute("data-theme", next);
+  });
+  document.addEventListener("keydown", function(ev){
+    if(ev.key === "Escape"){
+      if($("#modalRoot").innerHTML){ $("#modalRoot").innerHTML = ""; return; }
+      if(state.current){ state.current = null; render(); }
+    }
+    if(ev.key === "/" && document.activeElement !== $("#q")){
+      ev.preventDefault();
+      $("#q").focus();
+    }
+  });
+
+  var LS_KEY = "fti.localEdits.v1";
+  var baseRows = [];
+  var localEdits = {edits:{}, deleted:{}};
+
+  function loadLocal(){
+    try{
+      var raw = window.localStorage.getItem(LS_KEY);
+      if(raw){
+        var parsed = JSON.parse(raw);
+        localEdits.edits = parsed.edits || {};
+        localEdits.deleted = parsed.deleted || {};
+      }
+    }catch(err){ /* private window or blocked storage */ }
+  }
+  function persistLocal(){
+    try{ window.localStorage.setItem(LS_KEY, JSON.stringify(localEdits)); }
+    catch(err){ setStatus("This browser will not keep local edits. Download data.json before leaving.", "warn"); }
+  }
+  function localCount(){
+    return Object.keys(localEdits.edits).length + Object.keys(localEdits.deleted).length;
+  }
+  function compose(){
+    var byId = {};
+    baseRows.forEach(function(r){ byId[r.id] = r; });
+    Object.keys(localEdits.edits).forEach(function(id){
+      var o = {id:id};
+      var d = localEdits.edits[id];
+      Object.keys(d).forEach(function(k){ o[k] = d[k]; });
+      byId[id] = o;
+    });
+    Object.keys(localEdits.deleted).forEach(function(id){ delete byId[id]; });
+    state.entries = Object.keys(byId).map(function(id){ return byId[id]; });
+    state.ready = true;
+    render();
+    var n = localCount();
+    var badge = document.getElementById("saveBtn");
+    if(badge) badge.textContent = n ? "Download data.json (" + n + ")" : "Download data.json";
+  }
+
+  // Local store with the same surface the editor expects.
+  db = {
+    collection: function(){
+      return {
+        doc: function(id){
+          return {
+            set: function(data){
+              localEdits.edits[id] = data;
+              delete localEdits.deleted[id];
+              persistLocal(); compose();
+              return Promise.resolve();
+            },
+            delete: function(){
+              delete localEdits.edits[id];
+              localEdits.deleted[id] = true;
+              persistLocal(); compose();
+              return Promise.resolve();
+            }
+          };
+        }
+      };
+    }
+  };
+
+  loadLocal();
+  fetch("data.json", {cache:"no-store"}).then(function(r){
+    if(!r.ok) throw new Error(r.status);
+    return r.json();
+  }).then(function(payload){
+    var list = Array.isArray(payload) ? payload : (payload.entries || []);
+    baseRows = list.map(function(r){
+      if(r.id) return r;
+      var copy = {};
+      Object.keys(r).forEach(function(k){ copy[k] = r[k]; });
+      copy.id = (r.citeKey || String(r.title).slice(0,24)).replace(/[^A-Za-z0-9_\-.~:@+]/g, "-");
+      return copy;
+    });
+    state.dbAvailable = true;
+    compose();
+    if(localCount()) setStatus(localCount() + " local edit(s) not yet in data.json.", "warn");
+  }).catch(function(){
+    state.ready = true;
+    state.dbAvailable = false;
+    render();
+  });
+
+  setTimeout(function(){
+    if(!state.ready){ state.ready = true; state.dbAvailable = false; render(); }
+  }, 12000);
+})();
+</script>
+</body>
+</html>

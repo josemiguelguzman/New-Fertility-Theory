@@ -1,0 +1,1100 @@
+{
+  "name": "Fertility Transition Index",
+  "updated": "2026-09-11",
+  "count": 38,
+  "entries": [
+    {
+      "authors": [
+        "Anonymous"
+      ],
+      "camps": [
+        "Primary sources",
+        "Subjective turn"
+      ],
+      "citationVerified": true,
+      "citeKey": "anonymous-1933",
+      "issue": "1",
+      "keyArgument": "A married woman writes anonymously to complain that her parents' generation is pressing her to have children she does not want, and that the pressure is common enough among young couples to amount to a national problem. American mothers, she notes, have stopped worrying that their unmarried daughters will have babies and begun worrying that their married daughters will not.\n\nWhat makes the piece remarkable is that every argument now treated as contemporary is already fully formed: children are no longer economic assets as they were for her farming great-grandparents; a child would cost her job and a third of the household income in a three-room New York apartment; she has no religious compunction and does not think marriage without children immoral; patriotic pronatalism leaves her cold, with France paying bonuses and Mussolini holding contests for big families; and she refuses the premise that propagation should be the aim of life, having married for love and for the fun of living together.\n\nA 1933 voice making the freedom-and-fulfilment case that survey research would begin measuring ninety years later.",
+      "kind": "article",
+      "language": "en",
+      "pages": "52–54",
+      "periodFrom": 1930,
+      "periodTo": 1933,
+      "regions": [
+        "United States"
+      ],
+      "sourceFile": "Must I have Children 1933 (scan + transcription + Internet Archive source page)",
+      "title": "Must I Have Children?",
+      "venue": "The Forum (Forum and Century)",
+      "volume": "89",
+      "year": 1933,
+      "id": "anonymous-1933"
+    },
+    {
+      "authors": [
+        "Kingsley Davis"
+      ],
+      "camps": [
+        "Institutional sociology"
+      ],
+      "citationVerified": false,
+      "citeKey": "davis-1937",
+      "issue": "3",
+      "keyArgument": "Davis reads the falling birth rate as the end point of a long institutional devolution rather than as a change in individual motives. From the medieval towns onward, as labour specialised, technology elaborated and social mobility quickened, the reproductive institutions that had held fertility high loosened, shrank and lost their functions.\n\nHe insists that stopping the explanation at birth control is inadequate, since contraception is an instrument and not a cause, and that listing motives for using it merely restates the question. The deliberate pronatalist efforts of modern states are, on this reading, the latest result of the same trend, and they may be completing the decline of the old procreative institutions while foreshadowing new ones.",
+      "kind": "article",
+      "language": "en",
+      "pages": "289–306",
+      "periodFrom": 1200,
+      "periodTo": 1937,
+      "regions": [
+        "Western Europe",
+        "Global"
+      ],
+      "sourceFile": "davis1937.pdf",
+      "title": "Reproductive Institutions and the Pressure for Population",
+      "venue": "The Sociological Review",
+      "volume": "29",
+      "year": 1937,
+      "id": "davis-1937"
+    },
+    {
+      "authors": [
+        "Kingsley Davis"
+      ],
+      "camps": [
+        "Classical transition theory"
+      ],
+      "citationVerified": false,
+      "citeKey": "davis-1945",
+      "keyArgument": "The paper that put the phrase demographic transition into general circulation, and that framed it as a world process rather than a European peculiarity. Davis opens with the image of population growth as a long, thin powder fuse burning slowly for a million years before reaching the charge and exploding.\n\nIndustrialisation gave the impetus in Europe, but its diffusion meant that for the first time the whole of the world's population could be treated as a single entity responding in varying degrees to one dynamic. The transition is therefore staged and diffusionist: the same sequence arrives at different times in different places.",
+      "kind": "article",
+      "language": "en",
+      "pages": "1–11",
+      "periodDeep": true,
+      "periodFrom": 1650,
+      "periodTo": 1945,
+      "regions": [
+        "Global"
+      ],
+      "sourceFile": "davis1945.pdf",
+      "title": "The World Demographic Transition",
+      "venue": "Annals of the American Academy of Political and Social Science",
+      "volume": "237",
+      "year": 1945,
+      "id": "davis-1945"
+    },
+    {
+      "authors": [
+        "Kingsley Davis"
+      ],
+      "camps": [
+        "Institutional sociology"
+      ],
+      "citationVerified": true,
+      "citeKey": "davis-1955",
+      "doi": "10.1080/19485565.1955.9987218",
+      "issue": "1",
+      "keyArgument": "High fertility in agrarian societies is not an absence of control but the product of an institutional complex well adapted to a peasant economy: the joint household with three or more generations, early and near-universal marriage, kin authority over reproductive decisions, and the sanctions that make barrenness a household failure.\n\nBecause these arrangements distribute the costs of children away from the couple who bear them, fertility stays high without anyone choosing it. The corollary for policy is that fertility falls when the institutional supports are withdrawn, not when motives are addressed one household at a time.",
+      "kind": "article",
+      "language": "en",
+      "pages": "33–39",
+      "periodFrom": 1800,
+      "periodTo": 1955,
+      "regions": [
+        "Developing countries",
+        "Global"
+      ],
+      "sourceFile": "davis1955.pdf",
+      "title": "Institutional Patterns Favoring High Fertility in Underdeveloped Areas",
+      "venue": "Eugenics Quarterly",
+      "volume": "2",
+      "year": 1955,
+      "id": "davis-1955"
+    },
+    {
+      "authors": [
+        "Gary S. Becker"
+      ],
+      "camps": [
+        "Economic demand theory",
+        "Quantity–quality"
+      ],
+      "citationVerified": true,
+      "citeKey": "becker-1960",
+      "keyArgument": "The founding text of the economic approach to fertility. Becker treats children as durable goods yielding a stream of satisfactions, so that the number a couple has responds to income, to the price of children relative to other goods, and to knowledge of contraception.\n\nThe move that has shaped everything since is the separation of quantity from quality: parents choose not only how many children to have but how much to spend on each, and a rise in income can be taken out largely in quality. This is how Becker reconciles a theoretically positive income effect with the observed negative cross-sectional relationship between income and family size, which he attributes substantially to differences in contraceptive knowledge.",
+      "kind": "chapter",
+      "language": "en",
+      "pages": "209–240",
+      "periodFrom": 1900,
+      "periodTo": 1958,
+      "publisher": "Columbia University Press / NBER",
+      "regions": [
+        "United States",
+        "High-income countries"
+      ],
+      "sourceFile": "Becker1960c2387.pdf",
+      "title": "An Economic Analysis of Fertility",
+      "url": "http://www.nber.org/chapters/c2387",
+      "venue": "Demographic and Economic Change in Developed Countries",
+      "year": 1960,
+      "id": "becker-1960"
+    },
+    {
+      "authors": [
+        "Kingsley Davis"
+      ],
+      "camps": [
+        "Multiphasic response",
+        "Institutional sociology"
+      ],
+      "citationVerified": true,
+      "citeKey": "davis-1963",
+      "issue": "4",
+      "keyArgument": "Davis's multiphasic response: faced with sustained natural increase and improving survival, families do not select one remedy but reach for every means available at once, postponing marriage, staying single, migrating, aborting, sterilising and contracepting, in whatever combination their circumstances allow.\n\nThe motor is not absolute poverty but the threat to relative position: people respond in order to keep or improve their standing as the number of surviving children rises. Demographic change is thus reflexive and behavioural, each component altered by the changes it induces in the others, which is why a single-cause account of the transition will always underfit the record.",
+      "kind": "article",
+      "language": "en",
+      "pages": "345–366",
+      "periodFrom": 1750,
+      "periodTo": 1960,
+      "regions": [
+        "Japan",
+        "Western Europe",
+        "Global"
+      ],
+      "sourceFile": "Davistheoryofchangeandresponseinmoderndemographichistory1963.pdf",
+      "title": "The Theory of Change and Response in Modern Demographic History",
+      "venue": "Population Index",
+      "volume": "29",
+      "year": 1963,
+      "id": "davis-1963"
+    },
+    {
+      "authors": [
+        "Kingsley Davis"
+      ],
+      "camps": [
+        "Population policy",
+        "Institutional sociology"
+      ],
+      "citationVerified": true,
+      "citeKey": "davis-1973",
+      "issue": "4",
+      "keyArgument": "Davis takes the zero-growth debate apart by insisting that a goal is empty until its means are specified. When ZPG was first proposed the goal itself went undefended and only the means were argued about; once it became a movement the argument moved to the goal and the means were left vague.\n\nHis position is that voluntary family planning cannot deliver replacement fertility, because the institutional machinery of family life keeps the demand for children at or above it. A serious population policy must therefore work on the structure of incentives surrounding family formation rather than on the supply of contraception, a conclusion that made the paper a standing provocation in the field.",
+      "kind": "article",
+      "language": "en",
+      "pages": "15–30",
+      "periodFrom": 1950,
+      "periodTo": 1973,
+      "regions": [
+        "United States",
+        "High-income countries"
+      ],
+      "sourceFile": "Davis10.230720024164.pdf",
+      "title": "Zero Population Growth: The Goal and the Means",
+      "venue": "Daedalus",
+      "volume": "102",
+      "year": 1973,
+      "id": "davis-1973"
+    },
+    {
+      "authors": [
+        "Geoffrey McNicoll"
+      ],
+      "camps": [
+        "Institutional sociology"
+      ],
+      "citationVerified": true,
+      "citeKey": "mcnicoll-1980",
+      "issue": "3",
+      "keyArgument": "McNicoll opens with the observation that everyone knows why fertility falls with economic development, that Thompson, Lorimer, Notestein and Davis set the reasons out clearly, and that little has been added since. The anomaly he presses is that we nonetheless lack a theory of fertility in any serious sense: a coherent body of analysis linking a characterisation of society and economy to individual fertility decisions and outcomes, able to survive the empirical record.\n\nHis answer is to locate the missing link in institutions, the rules and organisational forms that mediate between macro conditions and household decisions, which is why policy inferences drawn from statistical associations between fertility and other variables are so often unreliable. The paper is the founding statement of the institutional approach that Davis had gestured at and that Caldwell and Greenhalgh would develop.",
+      "kind": "article",
+      "language": "en",
+      "pages": "441–462",
+      "periodFrom": 1930,
+      "periodTo": 1980,
+      "regions": [
+        "Developing countries",
+        "Global"
+      ],
+      "sourceFile": "mcnicoll1980.pdf",
+      "title": "Institutional Determinants of Fertility Change",
+      "venue": "Population and Development Review",
+      "volume": "6",
+      "year": 1980,
+      "id": "mcnicoll-1980"
+    },
+    {
+      "authors": [
+        "Kingsley Davis"
+      ],
+      "camps": [
+        "Gender revolution",
+        "Institutional sociology"
+      ],
+      "citationVerified": true,
+      "citeKey": "davis-1984",
+      "issue": "3",
+      "keyArgument": "Davis argues that the breadwinner system, in which the husband earned and the wife did not, was a historically brief arrangement rather than the traditional family, and that its dissolution is the central social fact of the period.\n\nExtrapolating age-specific participation rates for married women from 20 to 44, he projected that married women would match married men's labour force participation by 1998. The consequence he draws is institutional: as the earning role ceases to differentiate spouses, the arrangement that sustained high marital fertility loses its rationale, which places the gender division of labour at the centre of any account of low fertility.",
+      "kind": "article",
+      "language": "en",
+      "pages": "397–417",
+      "periodFrom": 1890,
+      "periodTo": 1984,
+      "regions": [
+        "United States",
+        "High-income countries"
+      ],
+      "sourceFile": "davis1984.pdf",
+      "title": "Wives and Work: The Sex Role Revolution and Its Consequences",
+      "venue": "Population and Development Review",
+      "volume": "10",
+      "year": 1984,
+      "id": "davis-1984"
+    },
+    {
+      "authors": [
+        "Kingsley Davis"
+      ],
+      "camps": [
+        "Evolutionary demography",
+        "Institutional sociology"
+      ],
+      "citationVerified": true,
+      "citeKey": "davis-1986",
+      "issue": "Supplement: Below-Replacement Fertility in Industrial Societies",
+      "keyArgument": "Davis sets below-replacement fertility against the whole span of human evolution and finds it anomalous: never in recorded history, not in the Great Depression, not in the eighteenth and nineteenth centuries, not in ancient times, and not across the millions of years of hominid evolution has fertility been so low for entire societies.\n\nThe argument this licenses is that low fertility cannot be explained by any mechanism with deep evolutionary roots, since none produced it before. Something in the modern institutional environment is overriding an evolved reproductive motivation, which makes the phenomenon a puzzle about contemporary institutions rather than about human nature.",
+      "kind": "article",
+      "language": "en",
+      "pages": "48–65",
+      "periodDeep": true,
+      "periodFrom": 1780,
+      "periodTo": 1986,
+      "regions": [
+        "High-income countries",
+        "Global"
+      ],
+      "sourceFile": "davis1986_1.pdf",
+      "title": "Low Fertility in Evolutionary Perspective",
+      "venue": "Population and Development Review",
+      "volume": "12",
+      "year": 1986,
+      "id": "davis-1986"
+    },
+    {
+      "authors": [
+        "John Cleland",
+        "Christopher Wilson"
+      ],
+      "camps": [
+        "Ideational & diffusion",
+        "Economic demand theory"
+      ],
+      "citationVerified": true,
+      "citeKey": "cleland-wilson-1987",
+      "doi": "10.1080/0032472031000142516",
+      "issue": "1",
+      "keyArgument": "The central challenge to the economic account of the transition. Cleland and Wilson assemble the historical European and contemporary developing-country evidence and find that the timing of fertility decline tracks language, region and cultural boundaries more closely than it tracks the economic conditions that demand theories make decisive.\n\nTheir alternative is ideational: what spreads is the idea that deliberate control of family size is legitimate and possible, and it spreads along channels of communication and cultural affinity. The paper set the terms for three decades of argument between demand and diffusion explanations, and it remains the standard citation for the view that the transition is a change in what is thinkable rather than in what is affordable.",
+      "kind": "article",
+      "language": "en",
+      "pages": "5–30",
+      "periodFrom": 1870,
+      "periodTo": 1987,
+      "regions": [
+        "Western Europe",
+        "Developing countries",
+        "Global"
+      ],
+      "sourceFile": "cleland1987.pdf",
+      "title": "Demand Theories of the Fertility Transition: An Iconoclastic View",
+      "venue": "Population Studies",
+      "volume": "41",
+      "year": 1987,
+      "id": "cleland-wilson-1987"
+    },
+    {
+      "authors": [
+        "Judith Blake"
+      ],
+      "camps": [
+        "Quantity–quality"
+      ],
+      "citationVerified": false,
+      "citeKey": "blake-1989",
+      "issue": "4913",
+      "keyArgument": "Blake gives the quantity–quality tradeoff an empirical edge by showing that the number of siblings is strongly and negatively related to years of schooling and to verbal ability scores, with the penalty concentrated in early truncation of schooling before high school graduation.\n\nShe is careful about a point that is often mishandled: the family size of mothers and the sibling number experienced by children diverge, so the decline in completed fertility does not exhaust the change in the environments children grow up in. As sibling numbers fall with very low fertility, the dilution mechanism implies rising attainment and verbal ability for recent cohorts.",
+      "kind": "article",
+      "language": "en",
+      "pages": "32–36",
+      "periodFrom": 1900,
+      "periodTo": 1989,
+      "regions": [
+        "United States"
+      ],
+      "sourceFile": "blake1989.pdf",
+      "title": "Number of Siblings and Educational Attainment",
+      "venue": "Science",
+      "volume": "245",
+      "year": 1989,
+      "id": "blake-1989"
+    },
+    {
+      "authors": [
+        "José Miguel Guzmán"
+      ],
+      "camps": [
+        "Classical transition theory",
+        "Latin American structuralism"
+      ],
+      "citationVerified": true,
+      "citeKey": "guzman-1991",
+      "keyArgument": "Written for an African audience at the point when Latin America's transition was far enough advanced to be read as a completed case. At the start of the 1960s the region was marked by high population growth, the product of persistently high fertility and an earlier mortality decline, and it was the Latin American experience that gave the demographic explosion much of its urgency.\n\nCoinciding with those same dates, fertility began to fall across most of the region. The paper reconstructs when and under what conditions the decline began, country by country, and asks what in the Latin American onset is transferable to sub-Saharan Africa and what belongs to the region's particular configuration.",
+      "kind": "working paper",
+      "language": "en",
+      "periodFrom": 1960,
+      "periodTo": 1991,
+      "publisher": "CELADE, Santiago",
+      "regions": [
+        "Latin America"
+      ],
+      "sourceFile": "JMGUZMAN 1991.pdf",
+      "title": "The Onset of Fertility Decline in Latin America",
+      "venue": "IUSSP Committee on Comparative Analysis of Fertility; Seminar on the Course of Fertility Transition in Sub-Saharan Africa, Harare, 19–22 November 1991",
+      "year": 1991,
+      "id": "guzman-1991"
+    },
+    {
+      "authors": [
+        "José Miguel Guzmán"
+      ],
+      "camps": [
+        "Latin American structuralism",
+        "Institutional sociology"
+      ],
+      "citationVerified": true,
+      "citeKey": "guzman-1997",
+      "keyArgument": "The companion piece to Van de Kaa in the same issue, setting out what Latin American research contributed to the analysis of fertility determinants, a body of work largely absent from the anglophone narratives.\n\nFour lines are reconstructed. Fertility as the reproduction of labour power, in Aldunate, Singer, Campanario, de Oliveira and Torrado, where daily and intergenerational reproduction are read through the production process and family types are attached to social classes, down to the ideologically determined familia fetiche. The family as the fundamental unit of analysis, pressing into its internal dynamics rather than treating the couple as a decision unit. The effect of economic transformation, including Bravo's study of Chile from 1960 to 1991 showing how structural adjustment worked through unemployment, wage erosion and income uncertainty. And the urban transition, following Martine on whether urbanisation and fertility transition in Brazil are independent or interdependent processes.",
+      "kind": "article",
+      "language": "es",
+      "pages": "87–110",
+      "periodFrom": 1970,
+      "periodTo": 1997,
+      "publisher": "CELADE / CEPAL, Santiago",
+      "regions": [
+        "Latin America",
+        "Chile"
+      ],
+      "sourceFile": "Notas de Población 66 (pp. 87–110)",
+      "title": "El aporte latinoamericano al análisis de los factores determinantes de la fecundidad",
+      "venue": "Notas de Población, Año XXV",
+      "volume": "66",
+      "year": 1997,
+      "id": "guzman-1997"
+    },
+    {
+      "authors": [
+        "Dirk J. van de Kaa"
+      ],
+      "camps": [
+        "Ideational & diffusion",
+        "Second Demographic Transition"
+      ],
+      "citationVerified": true,
+      "citeKey": "vandekaa-1997",
+      "keyArgument": "Van de Kaa borrows the anchored-narrative idea from the psychology of courtroom judgement: judges rarely reconstruct what happened by logical inference, they adopt a story and then anchor it in the evidence and in common knowledge of how things usually go. A well-anchored narrative is built from sub-narratives, nested and hierarchical, each requiring anchoring as specific as its claims.\n\nHalf a century of research into the determinants of fertility is best read the same way: as a set of sub-narratives developed from different orientations and perspectives, each anchored in a particular region, period and body of evidence. His honest conclusion is that no single good story has been accepted by all specialists about the conditions necessary and sufficient to produce fertility change, and that it no longer seems sensible to seek one theory valid for all regions and all periods.\n\nThe Spanish translation of \"Anchored Narratives: The Story and Findings of Half a Century of Research into the Determinants of Fertility,\" Population Studies 50(3), 1996, 389–432.",
+      "kind": "article",
+      "language": "es",
+      "pages": "9–86",
+      "periodFrom": 1945,
+      "periodTo": 1997,
+      "publisher": "CELADE / CEPAL, Santiago",
+      "regions": [
+        "Global",
+        "Western Europe"
+      ],
+      "sourceFile": "Notas de Población 66 (pp. 9–86)",
+      "title": "Narraciones ancladas: historia y resultados de medio siglo de investigaciones sobre los determinantes de la fecundidad",
+      "venue": "Notas de Población, Año XXV",
+      "volume": "66",
+      "year": 1997,
+      "id": "vandekaa-1997"
+    },
+    {
+      "authors": [
+        "John C. Caldwell",
+        "Bruce K. Caldwell",
+        "Pat Caldwell",
+        "Peter F. McDonald",
+        "Thomas Schindlmayr"
+      ],
+      "camps": [
+        "Wealth flows",
+        "Classical transition theory"
+      ],
+      "citationVerified": true,
+      "citeKey": "caldwell-2006",
+      "keyArgument": "Caldwell's collected statement of the wealth-flows programme, gathering the papers on pretransitional control, the supposed Neolithic mortality crisis, intensification, and the restatement of transition theory into a single architecture. The analytical approach set out in chapter 1 is that the type of economy determines the family's reproductive regime, so that hunter-gatherers, farmers and wage earners should be expected to have different demographic regimes rather than points on one scale.\n\nThe book is also the place where the programme confronts its critics, which makes it useful less as a summary of transition theory than as a record of what one of its principal architects thought had survived contact with the evidence.",
+      "kind": "book",
+      "language": "en",
+      "periodDeep": true,
+      "periodFrom": 1780,
+      "periodTo": 2006,
+      "publisher": "Springer, Dordrecht",
+      "regions": [
+        "Global",
+        "Sub-Saharan Africa",
+        "Developing countries"
+      ],
+      "sourceFile": "Caldwell_2006.pdf",
+      "title": "Demographic Transition Theory",
+      "year": 2006,
+      "id": "caldwell-2006-book"
+    },
+    {
+      "authors": [
+        "John C. Caldwell"
+      ],
+      "camps": [
+        "Wealth flows"
+      ],
+      "citationVerified": false,
+      "citeKey": "caldwell-2006-wealth",
+      "keyArgument": "Thirty years after the 1976 restatement, Caldwell revisits the claim that before fertility decline uncontrolled fertility is an economically rational choice, given the net value of children's work and their insurance value against danger, disaster and old age.\n\nHe argues that the apparently conflicting evidence on the value of children's work is more apparent than real and shows how the findings can be reconciled, and he proposes that a better understanding of the insurance function explains both the reversal of the wealth flow and the speed with which fertility falls once it begins. The chapter is the cleanest place to see what the wealth-flows hypothesis actually commits its author to.",
+      "kind": "chapter",
+      "language": "en",
+      "pages": "89–106",
+      "periodFrom": 1976,
+      "periodTo": 2006,
+      "publisher": "Springer, Dordrecht",
+      "regions": [
+        "Sub-Saharan Africa",
+        "Developing countries",
+        "Global"
+      ],
+      "sourceFile": "Caldwell 9781402044984_5.pdf",
+      "title": "On Net Intergenerational Wealth Flows: An Update",
+      "venue": "Demographic Transition Theory, chapter 5",
+      "year": 2006,
+      "id": "caldwell-2006-wealth-flows"
+    },
+    {
+      "authors": [
+        "José Miguel Guzmán",
+        "Jorge Rodríguez",
+        "Jorge Martínez",
+        "Juan Manuel Contreras",
+        "Daniela González"
+      ],
+      "camps": [
+        "Classical transition theory",
+        "Latin American structuralism"
+      ],
+      "citationVerified": true,
+      "citeKey": "guzman-2006",
+      "issue": "5–6",
+      "keyArgument": "A chronicle of more than fifty states and territories and 564 million people, written against the region's apparent uniformity. The authors insist on its diversity: a long settlement history, the collapse of indigenous populations at contact followed by four further crisis cycles through conquest, the Bourbon reforms, the liberal republics and finally neoliberal adjustment and globalisation, and the massive colonial-era inflows from Europe and Africa.\n\nThe demographic account runs from the post-1950 mortality decline through the onset and spread of fertility decline to the migration turn, and it is the standard reference for the regional transition in a comparative frame. Its running argument is that regional aggregates conceal more than they reveal, since the same transition arrives at very different dates and speeds across and within these countries.",
+      "kind": "article",
+      "language": "en",
+      "pages": "519–576",
+      "periodFrom": 1950,
+      "periodTo": 2006,
+      "regions": [
+        "Latin America",
+        "Caribbean"
+      ],
+      "sourceFile": "JMGUZMAn et al 2006.pdf",
+      "title": "The Demography of Latin America and the Caribbean since 1950",
+      "venue": "Population (English Edition)",
+      "volume": "61",
+      "year": 2006,
+      "id": "guzman-et-al-2006"
+    },
+    {
+      "authors": [
+        "Geoffrey McNicoll"
+      ],
+      "camps": [
+        "Institutional sociology",
+        "Population policy"
+      ],
+      "citationVerified": true,
+      "citeKey": "mcnicoll-2009",
+      "issue": "4",
+      "keyArgument": "Divergent fertility outcomes are routinely ascribed to state action, to policy deliberate or inadvertent. McNicoll argues that divergence is often more persuasively traced to initial conditions: cultural and institutional inheritance, the supply of human capital, even features of the natural and built environment. These are the hands societies are dealt, and he groups them under legacy.\n\nPolicy and legacy are interwoven, since policy builds on some legacy elements and tries, often ineffectively, to work around others, and neither fully determines outcomes because external pressures and opportunities, which he calls circumstance, also count. Legacy and circumstance can shrink the policy space in ways not apparent to outside observers, which argues for circumspection about past policy failures and for reining in the hopes attached to reform agendas. The contrast he works through is East Asia against sub-Saharan Africa over fifty years.",
+      "kind": "article",
+      "language": "en",
+      "pages": "777–795",
+      "periodFrom": 1950,
+      "periodTo": 2009,
+      "regions": [
+        "East Asia",
+        "Sub-Saharan Africa",
+        "Global"
+      ],
+      "sourceFile": "mcnicoll2009.pdf",
+      "title": "Legacy, Policy, and Circumstance in Fertility Transition",
+      "venue": "Population and Development Review",
+      "volume": "35",
+      "year": 2009,
+      "id": "mcnicoll-2009"
+    },
+    {
+      "authors": [
+        "Anna Rotkirch"
+      ],
+      "camps": [
+        "Evolutionary demography"
+      ],
+      "citationNote": "Author's pre-final draft, obtained directly from Rotkirch, so the text is reliable. Cite the published chapter in Hopcroft's Oxford Handbook of Evolution, Biology, and Society for pagination, or cite as the author's manuscript version.",
+      "citationVerified": false,
+      "citeKey": "rotkirch-2016",
+      "keyArgument": "Rotkirch's programmatic statement of evolutionary family sociology, which studies how genetic relatedness and psychological predispositions shape intimate relations, setting human families against other species and the history of hominid evolution.\n\nTwo research fields carry the argument. Couple relations, gender equality and involved fatherhood are better understood when sexual selection theory is combined with family system theories. Grandparenting is the second, where Darwinian theory and mainstream family sociology are being integrated around helping, conflict and kin lineages across generations.\n\nThe Darwinian side contributes attention to how genetic relatedness shapes familial sentiment and behaviour and to the universal patterns in family dynamics; the sociological side specifies the conditions under which those patterns vary. This is the theoretical apparatus behind her later work on reproductive cues.\n\nThe file is the pre-final draft; page numbers should be taken from the published chapter.",
+      "kind": "chapter",
+      "language": "en",
+      "periodDeep": true,
+      "periodFrom": 1980,
+      "periodTo": 2016,
+      "publisher": "Oxford University Press",
+      "regions": [
+        "Global"
+      ],
+      "sourceFile": "RotkirchEvolutionarySociologyprefinal2016.pdf (pre-final draft, obtained from the author)",
+      "title": "Evolutionary Family Sociology",
+      "venue": "The Oxford Handbook of Evolution, Biology, and Society, chapter 21 (ed. Rosemary Hopcroft)",
+      "year": 2016,
+      "id": "rotkirch-2016"
+    },
+    {
+      "authors": [
+        "Daniele Vignoli",
+        "Giacomo Bazzani",
+        "Raffaele Guetto",
+        "Alessandra Minello",
+        "Elena Pirani"
+      ],
+      "camps": [
+        "Narratives of the future",
+        "Subjective turn"
+      ],
+      "citationVerified": true,
+      "citeKey": "vignoli-2020",
+      "doi": "10.1007/978-3-030-48519-1_3",
+      "keyArgument": "The puzzle is that the pro-cyclical relationship between economic conditions and fertility documented since 1970 broke down after the Great Recession. Northern European economies resumed growth in 2009 while their fertility fell sharply, Norway from 1.98 in 2009 toward 1.6.\n\nVignoli and colleagues rebuild the decision framework around Knight's distinction between risk, where the probability distribution of future events is known, and uncertainty, where outcomes cannot be estimated by probability calculus or are simply unknown. Under genuine uncertainty people cannot optimise, so they act on narratives of the future: imagined, socially shared accounts of what is coming that render the future available for guidance in the present, in Dewey's phrase.\n\nThe chapter sets out the framework, addresses its causal validity, and argues that fertility research must treat expectations about the future as a cause in their own right rather than as noise around objective conditions.",
+      "kind": "chapter",
+      "language": "en",
+      "pages": "25–47",
+      "periodFrom": 1970,
+      "periodTo": 2020,
+      "publisher": "Springer",
+      "regions": [
+        "Western Europe",
+        "High-income countries"
+      ],
+      "sourceFile": "Vignoli et al 9783030485191_3.pdf",
+      "title": "Uncertainty and Narratives of the Future: A Theoretical Framework for Contemporary Fertility",
+      "venue": "Analyzing Contemporary Fertility, chapter 3 (ed. Robert Schoen); Springer Series on Demographic Methods and Population Analysis 51",
+      "year": 2020,
+      "id": "vignoli-2020"
+    },
+    {
+      "authors": [
+        "Kateryna Savelieva",
+        "Markus Jokela",
+        "Anna Rotkirch"
+      ],
+      "camps": [
+        "Subjective turn",
+        "Narratives of the future"
+      ],
+      "citationNote": "Accepted manuscript obtained directly from the authors, so the text is reliable. Volume and page numbers come from the published Marriage & Family Review version; the DOI resolves to it.",
+      "citationVerified": false,
+      "citeKey": "savelieva-2022",
+      "doi": "10.1080/01494929.2022.2083283",
+      "keyArgument": "Finland's total fertility rate fell from 1.87 in 2010 to 1.35 in 2019, one of the steepest declines in Europe. Using Finnish Family Barometer survey data on people aged 20 to 44 who did not plan to have children soon, the authors ask what reasons those people give.\n\nExploratory factor analysis groups the reasons into three: an uncertain life situation, lifestyle preferences, and completed fertility. A more stable life situation, infrequent social media use and lower work orientation are associated with lower uncertainty, while being a woman, being childless, frequent social media use and higher work orientation are associated with stronger lifestyle preferences.\n\nUncertainty and lifestyle preferences operate independently of sociodemographic characteristics, which is the finding that resists a purely structural reading of the Nordic decline. Note the social media association, measured rather than asserted.\n\nVolume and page numbers should be taken from the published version.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2010,
+      "periodTo": 2019,
+      "regions": [
+        "Finland"
+      ],
+      "sourceFile": "Savelieva_Accepted_manuscript.pdf (accepted manuscript, obtained from the authors)",
+      "title": "Reasons to postpone childbearing during fertility decline in Finland",
+      "venue": "Marriage & Family Review",
+      "year": 2022,
+      "id": "savelieva-2022"
+    },
+    {
+      "authors": [
+        "Kateryna Golovina",
+        "et al."
+      ],
+      "camps": [
+        "Subjective turn",
+        "Ideational & diffusion"
+      ],
+      "citationVerified": true,
+      "citeKey": "golovina-2024",
+      "doi": "10.1093/esr/jcad048",
+      "issue": "2",
+      "keyArgument": "Using the Finnish Family Barometers across five birth cohorts from 1970–1974 to 1990–1994, the authors find that the ideal number of children is lower in more recent cohorts, and that the shift is driven substantially by a rise in child-free ideals rather than by a general move toward smaller families.\n\nSocioeconomic factors are associated with ideals, but the cohort differences remain significant once they are controlled, which is the finding that matters for theory: what has changed is not only the capacity to realise a family but the family people say they want. This is the empirical anchor for treating the post-2010 decline as a change in preferences rather than in constraints.",
+      "kind": "article",
+      "language": "en",
+      "pages": "326–341",
+      "periodFrom": 1970,
+      "periodTo": 2023,
+      "regions": [
+        "Finland"
+      ],
+      "sourceFile": "golovina et al 048.pdf",
+      "title": "Birth cohort changes in fertility ideals: evidence from repeated cross-sectional surveys in Finland",
+      "venue": "European Sociological Review",
+      "volume": "40",
+      "year": 2024,
+      "id": "golovina-2024"
+    },
+    {
+      "authors": [
+        "Elizaveta Sivak",
+        "Paulina Pankowska",
+        "Adriënne Mendrik",
+        "Tom Emery",
+        "Javier Garcia-Bernardo",
+        "Seyit Höcük",
+        "Kasia Karpinska",
+        "Angelica Maineri",
+        "Joris Mulder",
+        "Malvina Nissim",
+        "Gert Stulp"
+      ],
+      "camps": [
+        "Computational demography"
+      ],
+      "citationVerified": true,
+      "citeKey": "sivak-2024",
+      "doi": "10.1007/s42001-024-00275-6",
+      "keyArgument": "The social sciences have produced an impressive body of research on the determinants of fertility, yet those determinants and the theories behind them are rarely evaluated on their ability to predict new data. Without that test, studies cannot be systematically compared and knowledge does not accumulate.\n\nThe authors present two datasets for the PreFer data challenge: one from the LISS panel, with thousands of variables including preferences and values, and one from Dutch register data. The challenge asks whether fertility outcomes can be predicted at all, and which family of predictors does better.\n\nFor a literature built on explanation rather than prediction, this is a methodological provocation as much as a resource: it makes the predictive weakness of established determinants visible and measurable.",
+      "kind": "article",
+      "language": "en",
+      "pages": "1403–1431",
+      "periodFrom": 2007,
+      "periodTo": 2024,
+      "regions": [
+        "Netherlands"
+      ],
+      "sourceFile": "Ziva et al 2024.pdf",
+      "title": "Combining the strengths of Dutch survey and register data in a data challenge to predict fertility (PreFer)",
+      "venue": "Journal of Computational Social Science",
+      "volume": "7",
+      "year": 2024,
+      "id": "sivak-2024-prefer"
+    },
+    {
+      "authors": [
+        "Hannah Zagel",
+        "Rene Almeling"
+      ],
+      "camps": [
+        "Population policy",
+        "Family institutions"
+      ],
+      "citationVerified": true,
+      "citeKey": "zagel-almeling-2024",
+      "doi": "10.4337/9781035324163.00022",
+      "keyArgument": "The closing chapter argues that state-reproduction relationships have mostly been discussed through overarching paradigmatic ideas about how a national body should reproduce, so that the regulation of reproduction is treated as a by-product of ideological projects such as nationalism or pronatalism.\n\nWithout denying the central role of normative ideas, Zagel and Almeling argue that this focus has obscured the instruments themselves: how ideas translate into goals, what instruments are used, and how coherent instruments and goals actually are.\n\nThe stakes are immediate. Governments facing declining birth rates are searching for ways to raise fertility at the same moment as advocates are naming injustices in how states bestow reproductive rights differentially across social groups, from the financing of contraception and abortion care to selective access. Treating these as one policy field rather than two is the contribution.",
+      "kind": "chapter",
+      "language": "en",
+      "pages": "183–193",
+      "periodFrom": 1950,
+      "periodTo": 2024,
+      "publisher": "Edward Elgar Publishing",
+      "regions": [
+        "Global",
+        "High-income countries"
+      ],
+      "sourceFile": "ZagelAlmelingDiscussionreproduction.pdf",
+      "title": "Discussion: reproduction policy in the twenty-first century",
+      "venue": "Reproduction Policy in the Twenty-First Century: A Comparative Analysis (ed. Hannah Zagel)",
+      "year": 2024,
+      "id": "zagel-almeling-2024"
+    },
+    {
+      "authors": [
+        "Hannah Zagel"
+      ],
+      "camps": [
+        "Population policy",
+        "Family institutions"
+      ],
+      "citationVerified": true,
+      "citeKey": "zagel-2024",
+      "doi": "10.4337/9781035324163",
+      "keyArgument": "An edited comparative volume treating reproduction policy as a policy field in its own right rather than as an appendix to family or social policy. Open access from Edward Elgar.\n\nThe organising move is to bring together the instruments that states use across the whole span of reproduction, from contraception and abortion through assisted reproduction to the support of childbearing, and to compare them as a set. That framing cuts across the usual separation between pronatalist policy on one side and reproductive rights on the other.",
+      "kind": "book",
+      "language": "en",
+      "periodFrom": 1950,
+      "periodTo": 2024,
+      "publisher": "Edward Elgar Publishing, Cheltenham and Northampton MA",
+      "regions": [
+        "Global",
+        "High-income countries"
+      ],
+      "sourceFile": "Zagel et al202526.pdf",
+      "title": "Reproduction Policy in the Twenty-First Century: A Comparative Analysis",
+      "year": 2024,
+      "id": "zagel-2024-book"
+    },
+    {
+      "authors": [
+        "Loreto Schnake Neale",
+        "Nora Reyes Campos",
+        "Francisco Díaz Aguilar"
+      ],
+      "camps": [
+        "Population policy",
+        "Subjective turn"
+      ],
+      "citationVerified": true,
+      "citeKey": "chile-hacienda-2025",
+      "keyArgument": "A qualitative exploratory study commissioned by the Chilean finance ministry, set against a fall in the total fertility rate from 5.4 in 1960 to 1.16 in 2023 and a preliminary 1.03 in 2024, which places Chile among the lowest-fertility countries in the world.\n\nThe framing is what distinguishes it: alongside the fiscal and labour-force consequences, the report names a crisis of reproductive freedom, the inability of the population to realise its own reproductive aspirations under structural, cultural and economic constraints. It notes that unlike other OECD countries Chile faces this decline without a clear diagnosis and without a dedicated policy framework, and it closes with recommendations drawn from that gap.",
+      "kind": "report",
+      "language": "es",
+      "periodFrom": 1960,
+      "periodTo": 2024,
+      "publisher": "Ministerio de Hacienda de Chile, Coordinación de Género y Laboratorio de Gobierno",
+      "regions": [
+        "Chile",
+        "Latin America"
+      ],
+      "sourceFile": "2025.12.05 Estudio desafíos natalidad en Chile.pdf",
+      "title": "Análisis de las condicionantes y los desafíos de la natalidad en Chile",
+      "venue": "Estudio exploratorio",
+      "year": 2025,
+      "id": "chile-hacienda-2025"
+    },
+    {
+      "authors": [
+        "Katya Ivanova"
+      ],
+      "camps": [
+        "Subjective turn"
+      ],
+      "citationVerified": true,
+      "citeKey": "ivanova-2025",
+      "doi": "10.1186/s41118-025-00246-3",
+      "issue": "10",
+      "keyArgument": "Using the Dutch LISS panel and joint latent class analysis, Ivanova identifies distinct trajectories of fertility expectations among childless women and men of reproductive age, modelling them while accounting for respondents who became parents during observation.\n\nThree classes emerge for both sexes: committed to parenthood, the largest; uncertain, at 24 per cent of women and 22 per cent of men; and early commitment to no expectation, at 13.3 and 9.4 per cent. Men show a fourth, later arrivals to expectation of parenthood.\n\nThe finding that matters for the pessimism literature is narrower than the framing usually allows. Significant differences by societal pessimism appear only among women: those committed to parenthood report the lowest pessimism and the uncertain group the highest, and the difference survives adjustment for depression, income satisfaction, partnership status and education. Uncertainty, not refusal, is where societal pessimism shows up.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2008,
+      "periodTo": 2022,
+      "regions": [
+        "Netherlands",
+        "High-income countries"
+      ],
+      "sourceFile": "Ivanova 2025.pdf",
+      "title": "Societal pessimism and trajectories of fertility expectations among Dutch non-parents",
+      "venue": "Genus",
+      "volume": "81",
+      "year": 2025,
+      "id": "ivanova-2025"
+    },
+    {
+      "authors": [
+        "Sara Yeatman",
+        "Emily Smith-Greenaway"
+      ],
+      "camps": [
+        "Unrealized fertility",
+        "Subjective turn"
+      ],
+      "citationVerified": true,
+      "citeKey": "yeatman-2025",
+      "doi": "10.4054/DemRes.2025.53.36",
+      "issue": "36",
+      "keyArgument": "A narrative review of demographic research on unrealized fertility, the experience of having fewer children than desired, which has expanded rapidly in low-fertility settings and has more recently been shown to be widespread in higher-fertility contexts too, across diverse sociodemographic conditions.\n\nThe authors' complaint is that the literature remains fragmented across definitions and measurement approaches with little synthesis between settings. They work through aggregate and individual-level measurement, the difficulty of measuring the same construct across contexts, and the causes.\n\nThree directions are proposed for future work: the consequences of unrealized fertility rather than only its extent, men's unrealized fertility, and unrealized fertility beyond numbers alone, meaning the timing, partner and circumstances people wanted and did not get. The best current map of the gap between desired and achieved fertility.",
+      "kind": "article",
+      "language": "en",
+      "pages": "1145–1172",
+      "periodFrom": 1990,
+      "periodTo": 2025,
+      "regions": [
+        "Global",
+        "High-income countries",
+        "Developing countries"
+      ],
+      "sourceFile": "Yeatman et al 5336.pdf",
+      "title": "Unrealized fertility in demography",
+      "venue": "Demographic Research",
+      "volume": "53",
+      "year": 2025,
+      "id": "yeatman-smith-greenaway-2025"
+    },
+    {
+      "authors": [
+        "Kristen Lagasse Burke"
+      ],
+      "camps": [
+        "Second Demographic Transition",
+        "Family institutions"
+      ],
+      "citationVerified": true,
+      "citeKey": "burke-2026",
+      "doi": "10.1215/00703370-12530630",
+      "issue": "2",
+      "keyArgument": "After more than fifty years of increase, the share of United States births to unmarried women stalled at around 40 per cent from 2009, a plateau that had gone largely unexamined. Burke shows that this deviation runs against both the deinstitutionalisation-of-marriage thesis and Second Demographic Transition expectations, which anticipated continued decoupling of marriage from childbearing.\n\nHer reading is that marriage has become more rather than less relevant to childbearing, plausibly because economic resources now gate both: the economic bar to marriage has risen at the same time as a bar to childbearing has emerged, and in the absence of subsidised childcare or paid leave people team up to clear them together.",
+      "kind": "article",
+      "language": "en",
+      "pages": "695–714",
+      "periodFrom": 1960,
+      "periodTo": 2023,
+      "regions": [
+        "United States"
+      ],
+      "sourceFile": "burke695.pdf",
+      "title": "Decoupled? The Persistent Relevance of Marriage for Childbearing in the 2010s United States",
+      "venue": "Demography",
+      "volume": "63",
+      "year": 2026,
+      "id": "burke-2026"
+    },
+    {
+      "authors": [
+        "Raquel Fernández",
+        "Inés Berniell",
+        "Milagros Onofri"
+      ],
+      "camps": [
+        "Subjective turn",
+        "Ideational & diffusion",
+        "Gender revolution"
+      ],
+      "citationVerified": true,
+      "citeKey": "fernandez-2026",
+      "keyArgument": "Between 2012 and 2022 the ideal number of children fell from 2.42 to 2.31 and the share intending a child within three years fell from 28 to 21 per cent. Using two cross-national surveys each fielded twice about a decade apart, the authors decompose these declines across a competing set of attitudes, theme by theme and then in a horse race.\n\nThree attitudes dominate. Children are increasingly seen as interfering with parents' freedom; views on whether mothers of young children should work have become markedly more progressive, accounting for a larger share of the decline among the tertiary-educated; and fewer people believe that a woman or a man needs children to lead a fulfilled life. That last attitude changed most over the decade and is the largest single contributor to falling intended fertility, above all among less-educated women. The division of household work and work-family conflict contribute little once gender norms enter the competition.",
+      "kind": "working paper",
+      "language": "en",
+      "periodFrom": 2012,
+      "periodTo": 2022,
+      "publisher": "National Bureau of Economic Research",
+      "regions": [
+        "High-income countries",
+        "Global"
+      ],
+      "sourceFile": "Binder1.pdf (pp. 394–429)",
+      "title": "Falling Fertility: The Changing Value of Freedom, Fulfillment, and Family",
+      "url": "http://www.nber.org/papers/w35651",
+      "venue": "NBER Working Paper 35651",
+      "year": 2026,
+      "id": "fernandez-berniell-onofri-2026"
+    },
+    {
+      "authors": [
+        "Paula E. Gobbi",
+        "Anne Hannusch",
+        "Pauline Rossi"
+      ],
+      "camps": [
+        "Family institutions",
+        "Economic demand theory",
+        "Ideational & diffusion"
+      ],
+      "citationVerified": true,
+      "citeKey": "gobbi-2026",
+      "issue": "1",
+      "keyArgument": "Cross-country variation in fertility fits the classic theories well enough, but within countries the fertility declines of the last sixty years are on average not associated with greater improvements in human capital, income or survival. Sub-Saharan Africa declined less than predicted, parts of Asia and Latin America more.\n\nGobbi, Hannusch and Rossi argue that marriage and inheritance customs account for much of the residual. Polygamy, bride price and rivalry between co-wives raise desired fertility and help explain today's stalled African transitions, while partible versus impartible inheritance helps explain the timing of historical declines across premodern European regions. The paper is the current statement of the family-institutions position in economics, and a useful bridge to the ideational literature.",
+      "kind": "article",
+      "language": "en",
+      "pages": "47–70",
+      "periodDeep": true,
+      "periodFrom": 1500,
+      "periodTo": 2026,
+      "regions": [
+        "Sub-Saharan Africa",
+        "Western Europe",
+        "Global"
+      ],
+      "sourceFile": "gobbietal2026.pdf",
+      "title": "Family Institutions and the Global Fertility Transition",
+      "venue": "Journal of Economic Perspectives",
+      "volume": "40",
+      "year": 2026,
+      "id": "gobbi-hannusch-rossi-2026"
+    },
+    {
+      "authors": [
+        "Gunnar Andersson"
+      ],
+      "camps": [
+        "Subjective turn",
+        "Gender revolution"
+      ],
+      "citationVerified": true,
+      "citeKey": "andersson-2026",
+      "keyArgument": "Andersson sets out what is known about Sweden's post-2010 decline and reaches a conclusion that constrains any theory of the current downturn. The change can be attributed entirely to a reduced inclination to become a parent: once a first child is born, progression to a second and third is roughly as before.\n\nThe fall in first-birth rates is close to uniform across socioeconomic groups and types of residential area, cannot be linked to any deterioration in economic conditions over the period, and is not due to a decline in couple formation. What has changed is the willingness of cohabiting couples to make long-term commitments. Structural factors are no longer sufficient, and the explanation must be sought in subjective factors operating at a general, global level.",
+      "kind": "report",
+      "language": "en",
+      "periodFrom": 1960,
+      "periodTo": 2026,
+      "publisher": "Ministry of Health and Social Affairs, Stockholm",
+      "regions": [
+        "Sweden",
+        "High-income countries"
+      ],
+      "sourceFile": "Andersson 2026.pdf",
+      "title": "From relatively high to declining fertility rates: What happened in Sweden?",
+      "url": "https://www.futurewithchildren.se",
+      "venue": "Committee for a Future with Children, Publication 2026:2",
+      "year": 2026,
+      "id": "andersson-2026"
+    },
+    {
+      "authors": [
+        "Eetu Soini",
+        "Kateryna Golovina",
+        "Hans Hämäläinen",
+        "Anna Rotkirch",
+        "Venla Berg",
+        "Suvi Parikka",
+        "Markus Jokela"
+      ],
+      "camps": [
+        "Social capital",
+        "Subjective turn"
+      ],
+      "citationVerified": true,
+      "citeKey": "soini-2026",
+      "doi": "10.1080/19485565.2026.2712225",
+      "keyArgument": "Most work on social support and childbearing is individual-level; this paper asks whether the social character of a place is associated with its fertility. Drawing social indicators from a national survey of 100,750 adults and fertility from population registers across 299 Finnish municipalities, and using spatial autoregressive error models to absorb spatial autocorrelation between neighbouring municipalities, the authors find that regions with higher social capital have higher total fertility rates.\n\nThe contribution to the low-fertility debate is to make social context an ecological variable: the resource in question is not only the support an individual receives but the density of social interaction and participation in the surrounding community.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2012,
+      "periodTo": 2026,
+      "regions": [
+        "Finland"
+      ],
+      "sourceFile": "Binder1.pdf (pp. 356–371)",
+      "title": "Regional social capital and fertility rate: Municipality-level analysis in Finland",
+      "venue": "Biodemography and Social Biology",
+      "year": 2026,
+      "id": "soini-2026"
+    },
+    {
+      "authors": [
+        "Henrik-Alexander Schubert",
+        "Vegard Skirbekk",
+        "Jessica Nisén"
+      ],
+      "camps": [
+        "Ideational & diffusion",
+        "Family institutions"
+      ],
+      "citationVerified": true,
+      "citeKey": "schubert-2026",
+      "issue": "103371",
+      "keyArgument": "Secularization is well established as a force in historical Western fertility patterns and almost absent from explanations of the recent declines. Schubert, Skirbekk and Nisén take it up for Finland from 1995 to 2019, using church tax payments in the administrative registers to identify religious affiliation.\n\nThe analysis is dyadic rather than individual: it looks at couples' joint religious affiliation, religiously homogeneous and mixed, and their probability of a first birth. The mechanism proposed is self-reinforcing, since declining church membership changes both the childbearing of couples and the composition of the partner market that forms them.\n\nThey conclude that the accelerated decline in church membership contributed to Finland's recent fertility decline, which puts a concrete ideational mechanism under the Nordic puzzle that Andersson leaves open.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 1995,
+      "periodTo": 2019,
+      "regions": [
+        "Finland"
+      ],
+      "sourceFile": "Shubert et al.pdf",
+      "title": "Secularization and low fertility: How declining church membership changes couples' childbearing",
+      "venue": "Social Science Research",
+      "volume": "137",
+      "year": 2026,
+      "id": "schubert-2026"
+    },
+    {
+      "authors": [
+        "Francesca Luppi",
+        "Andrea Bonanomi",
+        "Alessandro Rosina"
+      ],
+      "camps": [
+        "Subjective turn",
+        "Ideational & diffusion",
+        "Population policy"
+      ],
+      "citationVerified": true,
+      "citeKey": "luppi-2026",
+      "doi": "10.1007/s11113-026-10034-2",
+      "issue": "52",
+      "keyArgument": "Drawing on the Rapporto Giovani 2022 survey across Italy, France, Germany and Spain, and a sample of 2,616 childless adults aged 25 to 34, the authors ask whether seeing childbearing as a route to self-fulfilment changes how expected welfare-state childcare support translates into fertility intentions, and whether that depends on postmaterialist values.\n\nThey model how the self-fulfilment valuation of parenthood varies by postmaterialism and welfare expectations, then estimate a moderated mediation through generalised structural equation modelling with nonparametric bootstrap.\n\nThe interest for policy is the implied conditionality: childcare support does not act on intentions directly so much as through what parenthood is taken to mean, so the same provision can land very differently depending on the values of those receiving it.",
+      "kind": "article",
+      "language": "en",
+      "periodFrom": 2022,
+      "periodTo": 2026,
+      "regions": [
+        "Western Europe",
+        "High-income countries"
+      ],
+      "sourceFile": "Lupi et al 2026.pdf",
+      "title": "Self-Fulfillment and Fertility Intentions: The Interplay of Postmaterialism and Expected Welfare State Support",
+      "venue": "Population Research and Policy Review",
+      "volume": "45",
+      "year": 2026,
+      "id": "luppi-2026"
+    },
+    {
+      "authors": [
+        "Hanming Fang",
+        "Chang Liu"
+      ],
+      "camps": [
+        "Economic demand theory",
+        "Quantity–quality",
+        "Family institutions"
+      ],
+      "citationVerified": true,
+      "citeKey": "fang-liu-2026",
+      "keyArgument": "East Asian fertility has fallen to levels without historical precedent in a region whose Confucian heritage placed extraordinary weight on family continuity. Fang and Liu dissolve the paradox by separating two strands of that tradition and noting that modernisation affected them differently.\n\nThe pronatal strand, resting on lineage continuity, ancestor worship and reliance on sons in old age, was switched off as child mortality fell, incomes rose, women entered the labour force and state pensions displaced the family. What survived was the veneration of education and of status won by examination. Under a modern single-ranking tournament that strand reverses sign: where the imperial system rewarded having many sons so that one might succeed, the gaokao and suneung reward concentrating resources on one or two intensively educated children, and the quantity–quality tradeoff turns a pro-natal culture into an engine of low fertility.\n\nPrepared for New Frontiers in Fertility, edited by James J. Heckman.",
+      "kind": "working paper",
+      "language": "en",
+      "periodDeep": true,
+      "periodFrom": 1950,
+      "periodTo": 2026,
+      "publisher": "National Bureau of Economic Research",
+      "regions": [
+        "East Asia",
+        "Japan"
+      ],
+      "sourceFile": "Binder1.pdf (pp. 372–393)",
+      "title": "The Confucian Fertility Paradox: Education Competition and Ultra-Low Fertility in East Asia",
+      "url": "http://www.nber.org/papers/w35532",
+      "venue": "NBER Working Paper 35532",
+      "year": 2026,
+      "id": "fang-liu-2026"
+    },
+    {
+      "authors": [
+        "Anna Rotkirch"
+      ],
+      "camps": [
+        "Evolutionary demography",
+        "Subjective turn",
+        "Social capital"
+      ],
+      "citationVerified": true,
+      "citeKey": "rotkirch-2026",
+      "doi": "10.1553/p-m272-kafe",
+      "keyArgument": "Rotkirch takes the concept of reproductive cues from life history theory in evolutionary biology and applies it to the contemporary childbearing landscape. Cues are environmental signals for when it is a good time to have and raise offspring, and, she stresses, crucially also for when it appears to be a very bad idea.\n\nThe argument is that the bodies and minds of young women have evolved to be attuned to the examples of their peers, the support available from kin and community, and the status and encouragement or discouragement coming from the broader environment. Bodily, social, institutional and technological cues together shape the timing of parenthood.\n\nThe mismatch she identifies is that economic, technological and institutional incentives increasingly favour ever later childbearing while biological fertility does not, producing lower birth rates and involuntary childlessness. This is the paper to read against your own work on cue depletion.",
+      "kind": "article",
+      "language": "en",
+      "pages": "1–13",
+      "periodFrom": 2000,
+      "periodTo": 2026,
+      "regions": [
+        "Finland",
+        "High-income countries"
+      ],
+      "sourceFile": "Rotkirch2026.pdf / RotkirchCUES.pdf",
+      "title": "“Think about it all the time”. Reproductive cues in a late and low fertility setting",
+      "venue": "Vienna Yearbook of Population Research",
+      "volume": "24",
+      "year": 2026,
+      "id": "rotkirch-2026"
+    }
+  ]
+}
